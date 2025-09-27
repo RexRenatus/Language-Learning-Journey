@@ -1,0 +1,5 @@
+﻿Cleaned files directory: chunks_10k_korean_clean
+Files processed: 108
+Report: chunks_10k_korean_clean\clean_report.csv
+No English letters detected in data rows.
+No quotes detected in data rows.

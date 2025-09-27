@@ -1,0 +1,24 @@
+﻿Korean Ngram Processing Report
+================================
+Source file: Korean Ngram list.csv
+Total source data rows (excluding header): 1070295
+
+Chunking
+- Output directory: chunks_10k
+- Files created: 108
+- Per-file counts: chunks_10k/split_report.csv
+
+Cleaning
+- Output directory: chunks_10k_korean_clean
+- Files processed: 108
+- Total rows checked: 1070295
+- Total rows kept (Korean-only): 1021577
+- Total rows dropped (contained A-Z or parse failures): 48718
+- Per-file kept/dropped: chunks_10k_korean_clean/clean_report.csv
+
+Validation
+- No English letters detected in data rows.
+- No quotes detected in data rows.
+- Details: chunks_10k_korean_clean/validation_summary.txt
+
+All paths above are relative to project root.
