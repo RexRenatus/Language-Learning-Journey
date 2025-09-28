@@ -1,0 +1,27 @@
+﻿Language Learning Journey - Repository Layout Report
+Repo URL: https://github.com/RexRenatus/Language-Learning-Journey
+
+languages/
+├─ korean/
+│  ├─ source/            (1 file(s))
+│  ├─ ngrams/
+│  │  ├─ chunks/         (109 CSV file(s))
+│  │  └─ clean/          (108 CSV file(s))
+│  └─ reports/           (split/clean reports)
+├─ spanish/
+│  ├─ source/ (.gitkeep)
+│  ├─ ngrams/
+│  │  ├─ chunks/ (.gitkeep)
+│  │  └─ clean/  (.gitkeep)
+│  └─ reports/ (.gitkeep)
+└─ mandarin/
+   ├─ source/ (.gitkeep)
+   ├─ ngrams/
+   │  ├─ chunks/ (.gitkeep)
+   │  └─ clean/  (.gitkeep)
+   └─ reports/ (.gitkeep)
+
+Notes:
+- Korean data has been fully reorganized under languages/korean.
+- Spanish and Mandarin have skeletons with .gitkeep placeholders.
+- See README.md for workflow to add new languages.
