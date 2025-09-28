@@ -8,20 +8,20 @@ languages/
 │  │  ├─ chunks/         (109 CSV file(s))
 │  │  └─ clean/          (108 CSV file(s))
 │  └─ reports/           (split/clean reports)
-├─ spanish/
-│  ├─ source/ (.gitkeep)
-│  ├─ ngrams/
-│  │  ├─ chunks/ (.gitkeep)
-│  │  └─ clean/  (.gitkeep)
-│  └─ reports/ (.gitkeep)
-└─ mandarin/
-   ├─ source/ (.gitkeep)
-   ├─ ngrams/
-   │  ├─ chunks/ (.gitkeep)
-   │  └─ clean/  (.gitkeep)
-   └─ reports/ (.gitkeep)
+├─ spanish/ (skeleton with .gitkeep)
+└─ mandarin/ (skeleton with .gitkeep)
+
+Journal_Entries/
+├─ Structure: Journal_Entries/YYYY/MM/YYYYMMDD.md
+├─ Years: 1
+├─ Months: 1
+└─ Total entries (.md): 0
+Latest entry: .\Journal_Entries\2025\09\20250928.md
+
+Ignored content
+- scripts/ is ignored locally (.git/info/exclude) and globally (.gitignore_global) and not tracked
 
 Notes:
-- Korean data has been fully reorganized under languages/korean.
-- Spanish and Mandarin have skeletons with .gitkeep placeholders.
+- Korean data fully organized under languages/korean.
+- Spanish and Mandarin have skeletons ready for future datasets.
 - See README.md for workflow to add new languages.
