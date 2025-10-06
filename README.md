@@ -25,9 +25,10 @@ Traditional language learning follows a predictable path: vocabulary → grammar
    - Total frequency captured: 333,233 occurrences
 
 2. **Korean** (Testing Ground)
-   - Methodology validation phase
-   - Source n-grams extracted and processed
-   - Transliteration system in development
+   - 1,070,403 n-grams processed (subtitle corpus)
+   - Seoul accent IPA transliteration complete (formal + casual)
+   - 109 chunks with dual IPA columns ready for flashcards
+   - 파친코 (Pachinko) audiobook selected for immersion testing
 
 3. **Spanish** (Planned)
    - Corpus collected, processing queued
@@ -36,10 +37,12 @@ Traditional language learning follows a predictable path: vocabulary → grammar
 #### 📊 What's Been Built
 - ✅ Repository restructured for language learning journey
 - ✅ Automated n-gram extraction and processing pipeline
-- ✅ Frequency-based chunking system (1,000 n-gram segments)
+- ✅ Frequency-based chunking system (Mandarin: 1K segments, Korean: 10K chunks)
 - ✅ Dual-stage learning workflow: Quizlet (exposure) → Anki (retention)
 - ✅ Journal system documenting daily insights and patterns
-- 🔄 IPA transliteration system (Seoul accent + standard)
+- ✅ Weekly review system for pattern analysis and planning
+- ✅ Seoul accent IPA transliteration (formal + casual connected speech rules)
+- ✅ Korean processing: 1.07M+ n-grams with dual IPA columns
 - 🔄 Flashcard generation pipeline with context/nuance columns
 - 📋 GitHub automation agent (planned)
 
@@ -48,8 +51,10 @@ Traditional language learning follows a predictable path: vocabulary → grammar
 ## 🗺️ Where We're Heading
 
 ### **Immediate Roadmap** (Oct 2025)
-- [ ] **Flashcard Infrastructure**: Finalize column structure (IPA, honorifics, examples, translations, context)
-- [ ] **Korean Transliteration**: Add dual IPA columns to all n-gram chunks
+- [x] **Korean IPA Transliteration**: ✅ Complete - 1.07M+ n-grams with Seoul accent (formal + casual)
+- [x] **Weekly Review System**: ✅ Established - First review completed (Sep 28 - Oct 5)
+- [ ] **Flashcard Infrastructure**: Finalize additional columns (honorifics, examples, translations, context)
+- [ ] **파친코 Immersion**: Begin audiobook repetition experiment (reading + listening)
 - [ ] **Automation**: GitHub agent MVP for commit/push workflows
 - [ ] **Spanish Processing**: Complete corpus → n-gram pipeline
 
@@ -79,9 +84,11 @@ Language-Learning-Journey/
 │   ├── korean/
 │   │   ├── source/                  # Raw corpus data
 │   │   ├── ngrams/
-│   │   │   ├── chunks/              # 1,000-word frequency segments
-│   │   │   └── clean/               # Processed, validated data
-│   │   └── reports/                 # Processing validation logs
+│   │   │   ├── chunks/              # Original chunks (109 files, 1.07M n-grams)
+│   │   │   ├── chunks_with_ipa/     # IPA transliterated (formal + casual Seoul accent)
+│   │   │   └── 파친코 analysis/     # Comparative analysis files
+│   │   ├── reports/                 # Processing validation logs
+│   │   └── KOREAN_PROCESSING_DOCUMENTATION.md  # Complete processing guide
 │   │
 │   ├── mandarin/                    # 21K+ n-grams (2-6 words)
 │   │   └── [same structure]         # Pinyin added, chunked, Quizlet-ready
@@ -94,6 +101,9 @@ Language-Learning-Journey/
 │   │   ├── 09/                      # Daily insights, reflections
 │   │   └── 10/                      # Pattern discoveries
 │   └── Weekly_Reviews/              # Analysis, TODOs, actionable steps
+│
+├── 📋 Daily_Summaries/              # Comprehensive work logs
+│   └── 2025-10-06_Summary.md        # Technical accomplishments, metrics, insights
 │
 ├── 🔧 scripts/                      # Automation tooling
 │   └── [Processing pipelines]       # N-gram extraction, cleaning, validation
@@ -156,6 +166,22 @@ Single words lack context. Full sentences are overwhelming. N-grams (2-6 word ch
 2. **Multi-Modal Reinforcement**: Does reading + listening + flashcards beat flashcards alone?
 3. **Frequency Optimization**: Are high-frequency n-grams more effective than random vocabulary?
 
+### **Recent Breakthroughs** (Oct 2025)
+
+#### Korean IPA Transliteration System
+- ✅ **Seoul Accent Implementation**: Complete phonological rule engine
+  - Formal vs. casual speech differentiation
+  - Connected speech rules: nasal assimilation, liquid assimilation, aspiration spreading
+  - Intervocalic voicing (casual speech only)
+  - Processed 1.07M+ n-grams across 109 chunks
+- **Impact**: Pronunciation learning during flashcard phase significantly improved
+
+#### 파친코 Corpus Analysis
+- ✅ **Comparative Study**: 337 파친코 n-grams vs 1.07M corpus chunks
+  - 69.4% overlap validates corpus quality
+  - 30.6% "unique" entries ALL had irregular spacing (OCR artifacts)
+- **Lesson**: Clean source text critical; subtitle corpus quality confirmed
+
 ### **Previous Findings**
 - ❌ **3000 characters/day memorization** (Mandarin attempt): Led to character confusion
   - **Root Cause**: Insufficient contextual exposure beyond Anki
@@ -207,10 +233,12 @@ Language learning is the vehicle. The destination is **learning how to learn**�
 ## 📚 Key Resources
 
 ### **In This Repository**
-- [Weekly Reviews](Journal_Entries/Weekly_Reviews/) - Analysis, insights, actionable steps
+- [Daily Summaries](Daily_Summaries/) - Comprehensive work logs with metrics and insights
+- [Weekly Reviews](Journal_Entries/Weekly_Reviews/) - Analysis, patterns, actionable steps
 - [Daily Journals](Journal_Entries/2025/) - Raw observations and reflections
+- [Korean Processing Guide](languages/korean/KOREAN_PROCESSING_DOCUMENTATION.md) - Complete IPA system documentation
+- [Korean N-grams with IPA](languages/korean/ngrams/chunks_with_ipa/) - 1.07M+ entries, dual transliterations
 - [N-gram Data](languages/) - Processed frequency lists ready for study
-- [Processing Scripts](scripts/) - Automation tooling
 
 ### **External Learning Stack**
 - **Quizlet**: Early exposure and pattern formation
@@ -279,4 +307,4 @@ Welcome to the journey. 🚀
 ---
 
 *Last Updated: October 6, 2025*
-*Languages in Progress: 3 | N-grams Processed: 21,070+ | Hours Logged: Tracking Started*
+*Languages in Progress: 3 | N-grams Processed: 1,091,473+ | Korean IPA: ✅ Complete | Weekly Reviews: Active*
