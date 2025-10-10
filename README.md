@@ -21,7 +21,11 @@ Traditional language learning follows a predictable path: vocabulary → grammar
 1. **Mandarin** (Primary) - DLPT 1+ target in 6 months
    - Using Harry Potter Book 1 for contextual immersion
    - 21,070 n-grams processed (2-6 word combinations)
-   - 1,000 flashcards in active rotation
+   - 1,927 unique characters extracted with pinyin
+   - **Flashcard Infrastructure:**
+     - Character → Pinyin (5-choice multiple choice: 4 tones + neutral)
+     - Pinyin → Character (5-choice with prime-based randomization)
+     - 3,854 total flashcard variations ready for Anki
    - Total frequency captured: 333,233 occurrences
 
 2. **Korean** (Testing Ground)
@@ -43,6 +47,9 @@ Traditional language learning follows a predictable path: vocabulary → grammar
 - ✅ Weekly review system for pattern analysis and planning
 - ✅ Seoul accent IPA transliteration (formal + casual connected speech rules)
 - ✅ Korean processing: 1.07M+ n-grams with dual IPA columns
+- ✅ Mandarin character extraction (1,927 characters from Harry Potter corpus)
+- ✅ Dual flashcard formats: Character→Pinyin and Pinyin→Character
+- ✅ Mathematical randomization for distractor selection (no patterns)
 - 🔄 Flashcard generation pipeline with context/nuance columns
 - 📋 GitHub automation agent (planned)
 
@@ -90,8 +97,15 @@ Language-Learning-Journey/
 │   │   ├── reports/                 # Processing validation logs
 │   │   └── KOREAN_PROCESSING_DOCUMENTATION.md  # Complete processing guide
 │   │
-│   ├── mandarin/                    # 21K+ n-grams (2-6 words)
-│   │   └── [same structure]         # Pinyin added, chunked, Quizlet-ready
+│   ├── mandarin/
+│   │   ├── ngrams/
+│   │   │   ├── source/               # Original and processed n-grams
+│   │   │   ├── chunks/               # 22 chunked files (1,000 n-grams each)
+│   │   │   ├── characters/           # 1,927 character extractions
+│   │   │   │   └── by_character/     # Individual character CSV files
+│   │   │   └── flashcards/           # Multiple choice formats
+│   │   ├── frequency_lists/          # Harry Potter word frequencies
+│   │   └── reports/                  # Analysis and validation
 │   │
 │   └── spanish/                     # Queued for processing
 │       └── [same structure]
@@ -146,7 +160,7 @@ Single words lack context. Full sentences are overwhelming. N-grams (2-6 word ch
 ### **N-gram Statistics**
 | Language | Total N-grams | Frequency Count | Status |
 |----------|--------------|-----------------|--------|
-| Mandarin | 21,070 | 333,233 | ✅ Processed |
+| Mandarin | 21,070 | 333,233 | ✅ Processed + Flashcards |
 | Korean | TBD | TBD | 🔄 In Progress |
 | Spanish | TBD | TBD | 📋 Queued |
 
@@ -181,6 +195,23 @@ Single words lack context. Full sentences are overwhelming. N-grams (2-6 word ch
   - 69.4% overlap validates corpus quality
   - 30.6% "unique" entries ALL had irregular spacing (OCR artifacts)
 - **Lesson**: Clean source text critical; subtitle corpus quality confirmed
+
+#### Mandarin Flashcard Infrastructure (Oct 10, 2025)
+- ✅ **Character Extraction**: 1,927 unique characters from Harry Potter n-grams
+  - Individual character files with all containing n-grams
+  - Consolidated CSV with pypinyin-generated pinyin
+  - Frequency-sorted for prioritized learning
+
+- ✅ **Dual Flashcard Formats**:
+  - **Character → Pinyin**: 5-choice tone selection (1st-4th + neutral)
+  - **Pinyin → Character**: 5-choice character recognition
+  - Mathematical randomization prevents pattern memorization
+  - Answer distribution verified: 18-23% per position (balanced)
+
+- **Impact**: Ready for Anki import with 90%+ recall threshold
+  - Multiple choice format reduces initial difficulty
+  - Dual formats reinforce bidirectional learning
+  - Frequency prioritization ensures high-value study time
 
 ### **Previous Findings**
 - ❌ **3000 characters/day memorization** (Mandarin attempt): Led to character confusion
@@ -306,5 +337,5 @@ Welcome to the journey. 🚀
 
 ---
 
-*Last Updated: October 6, 2025*
-*Languages in Progress: 3 | N-grams Processed: 1,091,473+ | Korean IPA: ✅ Complete | Weekly Reviews: Active*
+*Last Updated: October 10, 2025*
+*Languages in Progress: 3 | N-grams Processed: 1,091,473+ | Characters: 1,927 | Flashcards: 3,854 | Korean IPA: ✅ | Weekly Reviews: Active*
