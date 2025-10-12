@@ -1,0 +1,520 @@
+﻿Type,Pattern,Characters,Pinyin_Sequence,Num_Characters,Tones,Avg_Frequency,Difficulty,Tongue_Twister_Example,Notes
+Tone_Series,de,得德的,de2-de2-de,3,"Tone2, Tone2, Neutral",1393,Easy,得德的，的德得,"3 tone variants of ""de"""
+Tone_Series,le,肋乐了,le1-le4-le,3,"Tone1, Tone4, Neutral",612,Easy,肋乐了，了乐肋,"3 tone variants of ""le"""
+Tone_Series,ta,他她它塔踏,ta1-ta1-ta1-ta3-ta4,5,"Tone1, Tone1, Tone1, Tone3, Tone4",402,Medium,他她它塔踏他她它,"5 tone variants of ""ta"""
+Tone_Series,zhe,遮折者这着,zhe1-zhe2-zhe3-zhe4-zhe,5,"Tone1, Tone2, Tone3, Tone4, Neutral",319,Medium,遮折者这着遮折者,"5 tone variants of ""zhe"""
+Tone_Series,men,门闷们,men2-men4-men,3,"Tone2, Tone4, Neutral",256,Easy,门闷们，们闷门,"3 tone variants of ""men"""
+Tone_Series,zai,灾仔崽在再,zai1-zai3-zai3-zai4-zai4,5,"Tone1, Tone3, Tone3, Tone4, Tone4",237,Medium,灾仔崽在再灾仔崽,"5 tone variants of ""zai"""
+Tone_Series,shuo,说烁硕,shuo1-shuo4-shuo4,3,"Tone1, Tone4, Tone4",233,Easy,说烁硕，硕烁说,"3 tone variants of ""shuo"""
+Tone_Series,shang,伤商上,shang1-shang1-shang4,3,"Tone1, Tone1, Tone4",220,Easy,伤商上，上商伤,"3 tone variants of ""shang"""
+Tone_Series,lai,来莱癞,lai2-lai2-lai4,3,"Tone2, Tone2, Tone4",208,Easy,来莱癞，癞莱来,"3 tone variants of ""lai"""
+Tone_Series,bu,补捕不布步部怖,bu3-bu3-bu4-bu4-bu4-bu4-bu4,7,"Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",191,Medium,补捕不布步部怖补捕不,"7 tone variants of ""bu"""
+Tone_Series,wo,窝我沃卧握,wo1-wo3-wo4-wo4-wo4,5,"Tone1, Tone3, Tone4, Tone4, Tone4",170,Medium,窝我沃卧握窝我沃,"5 tone variants of ""wo"""
+Tone_Series,ni,妮尼泥你,ni1-ni2-ni2-ni3,4,"Tone1, Tone2, Tone2, Tone3",167,Medium,妮妮泥，泥尼你,"4 tone variants of ""ni"""
+Tone_Series,dao,叨刀到道倒,dao1-dao1-dao4-dao4-dao4,5,"Tone1, Tone1, Tone4, Tone4, Tone4",164,Medium,叨刀到道倒叨刀到,"5 tone variants of ""dao"""
+Tone_Series,ren,人忍认任,ren2-ren3-ren4-ren4,4,"Tone2, Tone3, Tone4, Tone4",145,Medium,人人认，认忍任,"4 tone variants of ""ren"""
+Tone_Series,kan,刊堪看,kan1-kan1-kan4,3,"Tone1, Tone1, Tone4",140,Easy,刊堪看，看堪刊,"3 tone variants of ""kan"""
+Tone_Series,na,拿哪那纳娜,na2-na3-na4-na4-na4,5,"Tone2, Tone3, Tone4, Tone4, Tone4",120,Medium,拿哪那纳娜拿哪那,"5 tone variants of ""na"""
+Tone_Series,di,低滴迪嘀底抵地第弟递蒂帝,di1-di1-di2-di2-di3-di3-di4-di4-di4-di4-di4-di4,12,"Tone1, Tone1, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",118,Medium,低滴迪嘀底抵地第弟递蒂帝低滴迪,"12 tone variants of ""di"""
+Tone_Series,yi,一衣医依姨疑移遗仪以已椅意翼议易异忆益抑溢谊,yi1-yi1-yi1-yi1-yi2-yi2-yi2-yi2-yi2-yi3-yi3-yi3-yi4-yi4-yi4-yi4-yi4-yi4-yi4-yi4-yi4-yi4,22,"Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",117,Medium,一衣医依姨疑移遗仪以已椅意翼议易异忆益抑溢谊一衣医,"22 tone variants of ""yi"""
+Tone_Series,fa,发罚法,fa1-fa2-fa3,3,"Tone1, Tone2, Tone3",113,Easy,发罚法，法罚发,"3 tone variants of ""fa"""
+Tone_Series,li,离璃篱里礼理李利力厉立丽历莉隶,li2-li2-li2-li3-li3-li3-li3-li4-li4-li4-li4-li4-li4-li4-li4,15,"Tone2, Tone2, Tone2, Tone3, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",112,Medium,离璃篱里礼理李利力厉立丽历莉隶离璃篱,"15 tone variants of ""li"""
+Tone_Series,ge,胳戈咯歌哥搁格隔阁个各,ge1-ge1-ge1-ge1-ge1-ge1-ge2-ge2-ge2-ge4-ge4,11,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone4, Tone4",100,Medium,胳戈咯歌哥搁格隔阁个各胳戈咯,"11 tone variants of ""ge"""
+Tone_Series,dui,堆对队,dui1-dui4-dui4,3,"Tone1, Tone4, Tone4",86,Easy,堆对队，队对堆,"3 tone variants of ""dui"""
+Tone_Series,he,喝和何合盒赫贺,he1-he2-he2-he2-he2-he4-he4,7,"Tone1, Tone2, Tone2, Tone2, Tone2, Tone4, Tone4",84,Medium,喝和何合盒赫贺喝和何,"7 tone variants of ""he"""
+Tone_Series,tou,偷头投透,tou1-tou2-tou2-tou4,4,"Tone1, Tone2, Tone2, Tone4",80,Medium,偷偷投，投头透,"4 tone variants of ""tou"""
+Tone_Series,ba,巴疤八拔把爸霸吧,ba1-ba1-ba1-ba2-ba3-ba4-ba4-ba,8,"Tone1, Tone1, Tone1, Tone2, Tone3, Tone4, Tone4, Neutral",78,Medium,巴疤八拔把爸霸吧巴疤八,"8 tone variants of ""ba"""
+Tone_Series,hao,毫好号,hao2-hao3-hao4,3,"Tone2, Tone3, Tone4",77,Easy,毫好号，号好毫,"3 tone variants of ""hao"""
+Tone_Series,sheng,声生升绳圣剩盛胜,sheng1-sheng1-sheng1-sheng2-sheng4-sheng4-sheng4-sheng4,8,"Tone1, Tone1, Tone1, Tone2, Tone4, Tone4, Tone4, Tone4",75,Medium,声生升绳圣剩盛胜声生升,"8 tone variants of ""sheng"""
+Tone_Series,guo,埚国果裹过,guo1-guo2-guo3-guo3-guo4,5,"Tone1, Tone2, Tone3, Tone3, Tone4",72,Medium,埚国果裹过埚国果,"5 tone variants of ""guo"""
+Tone_Series,xia,狭下吓夏,xia2-xia4-xia4-xia4,4,"Tone2, Tone4, Tone4, Tone4",70,Medium,狭狭吓，吓下夏,"4 tone variants of ""xia"""
+Tone_Series,da,搭耷达答哒打大,da1-da1-da2-da2-da2-da3-da4,7,"Tone1, Tone1, Tone2, Tone2, Tone2, Tone3, Tone4",69,Medium,搭耷达答哒打大搭耷达,"7 tone variants of ""da"""
+Tone_Series,xiao,消哮小笑校肖效,xiao1-xiao1-xiao3-xiao4-xiao4-xiao4-xiao4,7,"Tone1, Tone1, Tone3, Tone4, Tone4, Tone4, Tone4",68,Medium,消哮小笑校肖效消哮小,"7 tone variants of ""xiao"""
+Tone_Series,zi,兹滋姿资紫自字子,zi1-zi1-zi1-zi1-zi3-zi4-zi4-zi,8,"Tone1, Tone1, Tone1, Tone1, Tone3, Tone4, Tone4, Neutral",67,Medium,兹滋姿资紫自字子兹滋姿,"8 tone variants of ""zi"""
+Tone_Series,shen,身深伸呻什神审甚,shen1-shen1-shen1-shen1-shen2-shen2-shen3-shen4,8,"Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone3, Tone4",67,Medium,身深伸呻什神审甚身深伸,"8 tone variants of ""shen"""
+Tone_Series,hai,还孩骸海害,hai2-hai2-hai2-hai3-hai4,5,"Tone2, Tone2, Tone2, Tone3, Tone4",66,Medium,还孩骸海害还孩骸,"5 tone variants of ""hai"""
+Tone_Series,you,优幽忧悠由游油犹有友又右佑诱,you1-you1-you1-you1-you2-you2-you2-you2-you3-you3-you4-you4-you4-you4,14,"Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4",65,Medium,优幽忧悠由游油犹有友又右佑诱优幽忧,"14 tone variants of ""you"""
+Tone_Series,shi,师失施湿尸狮时十实识石食拾使始史是事室似士视世试释适势式示饰誓匙,shi1-shi1-shi1-shi1-shi1-shi1-shi2-shi2-shi2-shi2-shi2-shi2-shi2-shi3-shi3-shi3-shi4-shi4-shi4-shi4-shi4-shi4-shi4-shi4-shi4-shi4-shi4-shi4-shi4-shi4-shi4-shi,32,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Neutral",63,Medium,师失施湿尸狮时十实识石食拾使始史是事室似士视世试释适势式示饰誓匙师失施,"32 tone variants of ""shi"""
+Tone_Series,ke,棵科颗可克课刻客,ke1-ke1-ke1-ke3-ke4-ke4-ke4-ke4,8,"Tone1, Tone1, Tone1, Tone3, Tone4, Tone4, Tone4, Tone4",62,Medium,棵科颗可克课刻客棵科颗,"8 tone variants of ""ke"""
+Tone_Series,dou,都兜抖斗豆逗,dou1-dou1-dou3-dou4-dou4-dou4,6,"Tone1, Tone1, Tone3, Tone4, Tone4, Tone4",60,Medium,都兜抖斗豆逗都兜抖,"6 tone variants of ""dou"""
+Tone_Series,tian,天添填,tian1-tian1-tian2,3,"Tone1, Tone1, Tone2",60,Easy,天添填，填添天,"3 tone variants of ""tian"""
+Tone_Series,er,儿而尔耳二,er2-er2-er3-er3-er4,5,"Tone2, Tone2, Tone3, Tone3, Tone4",59,Medium,儿而尔耳二儿而尔,"5 tone variants of ""er"""
+Tone_Series,hen,痕很狠恨,hen2-hen3-hen3-hen4,4,"Tone2, Tone3, Tone3, Tone4",58,Medium,痕痕狠，狠很恨,"4 tone variants of ""hen"""
+Tone_Series,ran,然燃染,ran2-ran2-ran3,3,"Tone2, Tone2, Tone3",58,Easy,然燃染，染燃然,"3 tone variants of ""ran"""
+Tone_Series,hui,挥徽灰恢回毁会惠,hui1-hui1-hui1-hui1-hui2-hui3-hui4-hui4,8,"Tone1, Tone1, Tone1, Tone1, Tone2, Tone3, Tone4, Tone4",56,Medium,挥徽灰恢回毁会惠挥徽灰,"8 tone variants of ""hui"""
+Tone_Series,mian,绵勉面,mian2-mian3-mian4,3,"Tone2, Tone3, Tone4",56,Easy,绵勉面，面勉绵,"3 tone variants of ""mian"""
+Tone_Series,luo,罗螺落洛摞,luo2-luo2-luo4-luo4-luo4,5,"Tone2, Tone2, Tone4, Tone4, Tone4",54,Medium,罗螺落洛摞罗螺落,"5 tone variants of ""luo"""
+Tone_Series,duo,多哆夺踱朵躲,duo1-duo1-duo2-duo2-duo3-duo3,6,"Tone1, Tone1, Tone2, Tone2, Tone3, Tone3",52,Medium,多哆夺踱朵躲多哆夺,"6 tone variants of ""duo"""
+Tone_Series,cong,匆聪囱从丛,cong1-cong1-cong1-cong2-cong2,5,"Tone1, Tone1, Tone1, Tone2, Tone2",52,Medium,匆聪囱从丛匆聪囱,"5 tone variants of ""cong"""
+Tone_Series,gao,高糕搞告,gao1-gao1-gao3-gao4,4,"Tone1, Tone1, Tone3, Tone4",51,Medium,高高搞，搞糕告,"4 tone variants of ""gao"""
+Tone_Series,yong,拥勇永用,yong1-yong3-yong3-yong4,4,"Tone1, Tone3, Tone3, Tone4",48,Medium,拥拥永，永勇用,"4 tone variants of ""yong"""
+Tone_Series,hou,喉吼后候厚,hou2-hou3-hou4-hou4-hou4,5,"Tone2, Tone3, Tone4, Tone4, Tone4",48,Medium,喉吼后候厚喉吼后,"5 tone variants of ""hou"""
+Tone_Series,zhang,张章长涨掌杖帐胀,zhang1-zhang1-zhang3-zhang3-zhang3-zhang4-zhang4-zhang4,8,"Tone1, Tone1, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4",46,Medium,张章长涨掌杖帐胀张章长,"8 tone variants of ""zhang"""
+Tone_Series,xiang,相箱厢香镶祥详想响像向项象巷橡,xiang1-xiang1-xiang1-xiang1-xiang1-xiang2-xiang2-xiang3-xiang3-xiang4-xiang4-xiang4-xiang4-xiang4-xiang4,15,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",44,Medium,相箱厢香镶祥详想响像向项象巷橡相箱厢,"15 tone variants of ""xiang"""
+Tone_Series,chang,常场敞,chang2-chang3-chang3,3,"Tone2, Tone3, Tone3",44,Easy,常场敞，敞场常,"3 tone variants of ""chang"""
+Tone_Series,jiu,究纠揪酒久九就旧救,jiu1-jiu1-jiu1-jiu3-jiu3-jiu3-jiu4-jiu4-jiu4,9,"Tone1, Tone1, Tone1, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4",43,Medium,究纠揪酒久九就旧救究纠揪,"9 tone variants of ""jiu"""
+Tone_Series,qu,曲区躯黢取去趣,qu1-qu1-qu1-qu1-qu3-qu4-qu4,7,"Tone1, Tone1, Tone1, Tone1, Tone3, Tone4, Tone4",43,Medium,曲区躯黢取去趣曲区躯,"7 tone variants of ""qu"""
+Tone_Series,ye,爷也夜业叶页液,ye2-ye3-ye4-ye4-ye4-ye4-ye4,7,"Tone2, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",42,Medium,爷也夜业叶页液爷也夜,"7 tone variants of ""ye"""
+Tone_Series,xin,心新欣辛信,xin1-xin1-xin1-xin1-xin4,5,"Tone1, Tone1, Tone1, Tone1, Tone4",42,Medium,心新欣辛信心新欣,"5 tone variants of ""xin"""
+Tone_Series,xue,削学穴雪血,xue1-xue2-xue2-xue3-xue4,5,"Tone1, Tone2, Tone2, Tone3, Tone4",41,Medium,削学穴雪血削学穴,"5 tone variants of ""xue"""
+Tone_Series,mei,没眉霉梅猸枚玫每美媚妹寐,mei2-mei2-mei2-mei2-mei2-mei2-mei2-mei3-mei3-mei4-mei4-mei4,12,"Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4, Tone4",40,Medium,没眉霉梅猸枚玫每美媚妹寐没眉霉,"12 tone variants of ""mei"""
+Tone_Series,shou,收手守首授受兽瘦,shou1-shou3-shou3-shou3-shou4-shou4-shou4-shou4,8,"Tone1, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4",40,Medium,收手守首授受兽瘦收手守,"8 tone variants of ""shou"""
+Tone_Series,qi,期漆七妻凄戚栖奇其骑琦起气汽泣器弃,qi1-qi1-qi1-qi1-qi1-qi1-qi1-qi2-qi2-qi2-qi2-qi3-qi4-qi4-qi4-qi4-qi4,17,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",39,Medium,期漆七妻凄戚栖奇其骑琦起气汽泣器弃期漆七,"17 tone variants of ""qi"""
+Tone_Series,zhong,中钟终忠种重众,zhong1-zhong1-zhong1-zhong1-zhong3-zhong4-zhong4,7,"Tone1, Tone1, Tone1, Tone1, Tone3, Tone4, Tone4",39,Medium,中钟终忠种重众中钟终,"7 tone variants of ""zhong"""
+Tone_Series,wang,汪王亡往望忘,wang1-wang2-wang2-wang3-wang4-wang4,6,"Tone1, Tone2, Tone2, Tone3, Tone4, Tone4",38,Medium,汪王亡往望忘汪王亡,"6 tone variants of ""wang"""
+Tone_Series,dong,东懂动洞冻,dong1-dong3-dong4-dong4-dong4,5,"Tone1, Tone3, Tone4, Tone4, Tone4",38,Medium,东懂动洞冻东懂动,"5 tone variants of ""dong"""
+Tone_Series,chu,出除厨蜍橱楚储处搐触,chu1-chu2-chu2-chu2-chu2-chu3-chu3-chu4-chu4-chu4,10,"Tone1, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4, Tone4",37,Medium,出除厨蜍橱楚储处搐触出除厨,"10 tone variants of ""chu"""
+Tone_Series,gan,尴坩感敢赶干,gan1-gan1-gan3-gan3-gan3-gan4,6,"Tone1, Tone1, Tone3, Tone3, Tone3, Tone4",37,Medium,尴坩感敢赶干尴坩感,"6 tone variants of ""gan"""
+Tone_Series,yao,妖腰邀摇遥咬要药耀钥,yao1-yao1-yao1-yao2-yao2-yao3-yao4-yao4-yao4-yao4,10,"Tone1, Tone1, Tone1, Tone2, Tone2, Tone3, Tone4, Tone4, Tone4, Tone4",35,Medium,妖腰邀摇遥咬要药耀钥妖腰邀,"10 tone variants of ""yao"""
+Tone_Series,san,三伞散,san1-san3-san4,3,"Tone1, Tone3, Tone4",35,Easy,三伞散，散伞三,"3 tone variants of ""san"""
+Tone_Series,nian,年黏念,nian2-nian2-nian4,3,"Tone2, Tone2, Tone4",35,Easy,年黏念，念黏年,"3 tone variants of ""nian"""
+Tone_Series,ting,听厅停庭廷挺,ting1-ting1-ting2-ting2-ting2-ting3,6,"Tone1, Tone1, Tone2, Tone2, Tone2, Tone3",34,Medium,听厅停庭廷挺听厅停,"6 tone variants of ""ting"""
+Tone_Series,bian,边编蝙变遍便,bian1-bian1-bian1-bian4-bian4-bian4,6,"Tone1, Tone1, Tone1, Tone4, Tone4, Tone4",34,Medium,边编蝙变遍便边编蝙,"6 tone variants of ""bian"""
+Tone_Series,shui,谁水睡,shui2-shui3-shui4,3,"Tone2, Tone3, Tone4",34,Easy,谁水睡，睡水谁,"3 tone variants of ""shui"""
+Tone_Series,tai,胎台抬太态,tai1-tai2-tai2-tai4-tai4,5,"Tone1, Tone2, Tone2, Tone4, Tone4",33,Medium,胎台抬太态胎台抬,"5 tone variants of ""tai"""
+Tone_Series,fang,方房防妨仿放,fang1-fang2-fang2-fang2-fang3-fang4,6,"Tone1, Tone2, Tone2, Tone2, Tone3, Tone4",33,Medium,方房防妨仿放方房防,"6 tone variants of ""fang"""
+Tone_Series,jian,间尖肩坚监艰简捡剪检见件箭建渐健剑键,jian1-jian1-jian1-jian1-jian1-jian1-jian3-jian3-jian3-jian3-jian4-jian4-jian4-jian4-jian4-jian4-jian4-jian4,18,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone3, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",32,Medium,间尖肩坚监艰简捡剪检见件箭建渐健剑键间尖肩,"18 tone variants of ""jian"""
+Tone_Series,zuo,昨琢左佐做坐作座,zuo2-zuo2-zuo3-zuo3-zuo4-zuo4-zuo4-zuo4,8,"Tone2, Tone2, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4",32,Medium,昨琢左佐做坐作座昨琢左,"8 tone variants of ""zuo"""
+Tone_Series,si,斯思丝嘶司撕私咝死四饲,si1-si1-si1-si1-si1-si1-si1-si1-si3-si4-si4,11,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone3, Tone4, Tone4",31,Medium,斯思丝嘶司撕私咝死四饲斯思丝,"11 tone variants of ""si"""
+Tone_Series,dian,甸点店电,dian1-dian3-dian4-dian4,4,"Tone1, Tone3, Tone4, Tone4",31,Medium,甸甸店，店点电,"4 tone variants of ""dian"""
+Tone_Series,ma,妈麻蟆马玛骂吗,ma1-ma2-ma2-ma3-ma3-ma4-ma,7,"Tone1, Tone2, Tone2, Tone3, Tone3, Tone4, Neutral",31,Medium,妈麻蟆马玛骂吗妈麻蟆,"7 tone variants of ""ma"""
+Tone_Series,ding,盯丁顶鼎定,ding1-ding1-ding3-ding3-ding4,5,"Tone1, Tone1, Tone3, Tone3, Tone4",31,Medium,盯丁顶鼎定盯丁顶,"5 tone variants of ""ding"""
+Tone_Series,ming,明名冥鸣命,ming2-ming2-ming2-ming2-ming4,5,"Tone2, Tone2, Tone2, Tone2, Tone4",31,Medium,明名冥鸣命明名冥,"5 tone variants of ""ming"""
+Tone_Series,deng,灯蹬等邓瞪凳,deng1-deng1-deng3-deng4-deng4-deng4,6,"Tone1, Tone1, Tone3, Tone4, Tone4, Tone4",30,Medium,灯蹬等邓瞪凳灯蹬等,"6 tone variants of ""deng"""
+Tone_Series,zhi,知之支枝蜘吱汁直值执植职只指止纸治制置至致志智滞质,zhi1-zhi1-zhi1-zhi1-zhi1-zhi1-zhi1-zhi2-zhi2-zhi2-zhi2-zhi2-zhi3-zhi3-zhi3-zhi3-zhi4-zhi4-zhi4-zhi4-zhi4-zhi4-zhi4-zhi4-zhi4,25,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",29,Medium,知之支枝蜘吱汁直值执植职只指止纸治制置至致志智滞质知之支,"25 tone variants of ""zhi"""
+Tone_Series,jiao,交焦跤骄脚角搅狡教叫较,jiao1-jiao1-jiao1-jiao1-jiao3-jiao3-jiao3-jiao3-jiao4-jiao4-jiao4,11,"Tone1, Tone1, Tone1, Tone1, Tone3, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4",28,Medium,交焦跤骄脚角搅狡教叫较交焦跤,"11 tone variants of ""jiao"""
+Tone_Series,yin,音因阴银吟隐引印,yin1-yin1-yin1-yin2-yin2-yin3-yin3-yin4,8,"Tone1, Tone1, Tone1, Tone2, Tone2, Tone3, Tone3, Tone4",28,Medium,音因阴银吟隐引印音因阴,"8 tone variants of ""yin"""
+Tone_Series,dai,呆袋带待戴代,dai1-dai4-dai4-dai4-dai4-dai4,6,"Tone1, Tone4, Tone4, Tone4, Tone4, Tone4",28,Medium,呆袋带待戴代呆袋带,"6 tone variants of ""dai"""
+Tone_Series,guang,光广逛,guang1-guang3-guang4,3,"Tone1, Tone3, Tone4",27,Easy,光广逛，逛广光,"3 tone variants of ""guang"""
+Tone_Series,fei,飞非妃肥费,fei1-fei1-fei1-fei2-fei4,5,"Tone1, Tone1, Tone1, Tone2, Tone4",27,Medium,飞非妃肥费飞非妃,"5 tone variants of ""fei"""
+Tone_Series,nao,脑恼闹,nao3-nao3-nao4,3,"Tone3, Tone3, Tone4",27,Easy,脑恼闹，闹恼脑,"3 tone variants of ""nao"""
+Tone_Series,mo,摸魔模摩磨膜抹莫默墨沫末漠,mo1-mo2-mo2-mo2-mo2-mo2-mo3-mo4-mo4-mo4-mo4-mo4-mo4,13,"Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",26,Medium,摸魔模摩磨膜抹莫默墨沫末漠摸魔模,"13 tone variants of ""mo"""
+Tone_Series,liang,凉踉两亮量辆谅,liang2-liang2-liang3-liang4-liang4-liang4-liang4,7,"Tone2, Tone2, Tone3, Tone4, Tone4, Tone4, Tone4",26,Medium,凉踉两亮量辆谅凉踉两,"7 tone variants of ""liang"""
+Tone_Series,xing,星兴形行型醒擤幸性,xing1-xing1-xing2-xing2-xing2-xing3-xing3-xing4-xing4,9,"Tone1, Tone1, Tone2, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4",26,Medium,星兴形行型醒擤幸性星兴形,"9 tone variants of ""xing"""
+Tone_Series,jin,金今巾襟紧尽仅进近禁劲噤,jin1-jin1-jin1-jin1-jin3-jin3-jin3-jin4-jin4-jin4-jin4-jin4,12,"Tone1, Tone1, Tone1, Tone1, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",26,Medium,金今巾襟紧尽仅进近禁劲噤金今巾,"12 tone variants of ""jin"""
+Tone_Series,ci,茨词慈此次刺,ci2-ci2-ci2-ci3-ci4-ci4,6,"Tone2, Tone2, Tone2, Tone3, Tone4, Tone4",26,Medium,茨词慈此次刺茨词慈,"6 tone variants of ""ci"""
+Tone_Series,yang,央羊洋阳扬养仰样,yang1-yang2-yang2-yang2-yang2-yang3-yang3-yang4,8,"Tone1, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone4",25,Medium,央羊洋阳扬养仰样央羊洋,"8 tone variants of ""yang"""
+Tone_Series,xian,先鲜咸闲显险现线羡陷馅,xian1-xian1-xian2-xian2-xian3-xian3-xian4-xian4-xian4-xian4-xian4,11,"Tone1, Tone1, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",25,Medium,先鲜咸闲显险现线羡陷馅先鲜咸,"11 tone variants of ""xian"""
+Tone_Series,jia,家加夹颊假贾甲价架,jia1-jia1-jia1-jia2-jia3-jia3-jia3-jia4-jia4,9,"Tone1, Tone1, Tone1, Tone2, Tone3, Tone3, Tone3, Tone4, Tone4",25,Medium,家加夹颊假贾甲价架家加夹,"9 tone variants of ""jia"""
+Tone_Series,jue,觉决绝爵嚼,jue2-jue2-jue2-jue2-jue2,5,"Tone2, Tone2, Tone2, Tone2, Tone2",25,Medium,觉决绝爵嚼觉决绝,"5 tone variants of ""jue"""
+Tone_Series,qing,清轻倾青情请庆,qing1-qing1-qing1-qing1-qing2-qing3-qing4,7,"Tone1, Tone1, Tone1, Tone1, Tone2, Tone3, Tone4",25,Medium,清轻倾青情请庆清轻倾,"7 tone variants of ""qing"""
+Tone_Series,chuan,穿传船喘串,chuan1-chuan2-chuan2-chuan3-chuan4,5,"Tone1, Tone2, Tone2, Tone3, Tone4",25,Medium,穿传船喘串穿传船,"5 tone variants of ""chuan"""
+Tone_Series,chuang,窗床闯,chuang1-chuang2-chuang3,3,"Tone1, Tone2, Tone3",25,Easy,窗床闯，闯床窗,"3 tone variants of ""chuang"""
+Tone_Series,wei,微危威薇韦围唯维帷违尾委伟为位味未慰卫胃,wei1-wei1-wei1-wei1-wei2-wei2-wei2-wei2-wei2-wei2-wei3-wei3-wei3-wei4-wei4-wei4-wei4-wei4-wei4-wei4,20,"Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",24,Medium,微危威薇韦围唯维帷违尾委伟为位味未慰卫胃微危威,"20 tone variants of ""wei"""
+Tone_Series,jing,睛经惊精茎兢晶警景静镜竟径净境竞,jing1-jing1-jing1-jing1-jing1-jing1-jing1-jing3-jing3-jing4-jing4-jing4-jing4-jing4-jing4-jing4,16,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",24,Medium,睛经惊精茎兢晶警景静镜竟径净境竞睛经惊,"16 tone variants of ""jing"""
+Tone_Series,tiao,挑条跳眺,tiao1-tiao2-tiao4-tiao4,4,"Tone1, Tone2, Tone4, Tone4",24,Medium,挑挑跳，跳条眺,"4 tone variants of ""tiao"""
+Tone_Series,lian,连怜联帘脸练链,lian2-lian2-lian2-lian2-lian3-lian4-lian4,7,"Tone2, Tone2, Tone2, Tone2, Tone3, Tone4, Tone4",23,Medium,连怜联帘脸练链连怜联,"7 tone variants of ""lian"""
+Tone_Series,su,诉宿速肃塑,su4-su4-su4-su4-su4,5,"Tone4, Tone4, Tone4, Tone4, Tone4",23,Medium,诉宿速肃塑诉宿速,"5 tone variants of ""su"""
+Tone_Series,zheng,争睁挣怔整正证,zheng1-zheng1-zheng1-zheng1-zheng3-zheng4-zheng4,7,"Tone1, Tone1, Tone1, Tone1, Tone3, Tone4, Tone4",23,Medium,争睁挣怔整正证争睁挣,"7 tone variants of ""zheng"""
+Tone_Series,bei,杯悲碑被备背辈倍贝,bei1-bei1-bei1-bei4-bei4-bei4-bei4-bei4-bei4,9,"Tone1, Tone1, Tone1, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",22,Medium,杯悲碑被备背辈倍贝杯悲碑,"9 tone variants of ""bei"""
+Tone_Series,hua,花哗滑猾话化画划,hua1-hua1-hua2-hua2-hua4-hua4-hua4-hua4,8,"Tone1, Tone1, Tone2, Tone2, Tone4, Tone4, Tone4, Tone4",22,Medium,花哗滑猾话化画划花哗滑,"8 tone variants of ""hua"""
+Tone_Series,zhen,真贞枕阵震振,zhen1-zhen1-zhen3-zhen4-zhen4-zhen4,6,"Tone1, Tone1, Tone3, Tone4, Tone4, Tone4",22,Medium,真贞枕阵震振真贞枕,"6 tone variants of ""zhen"""
+Tone_Series,gai,该改概盖,gai1-gai3-gai4-gai4,4,"Tone1, Tone3, Tone4, Tone4",22,Medium,该该概，概改盖,"4 tone variants of ""gai"""
+Tone_Series,ban,班斑般板办半绊伴,ban1-ban1-ban1-ban3-ban4-ban4-ban4-ban4,8,"Tone1, Tone1, Tone1, Tone3, Tone4, Tone4, Tone4, Tone4",22,Medium,班斑般板办半绊伴班斑般,"8 tone variants of ""ban"""
+Tone_Series,lao,劳牢老佬,lao2-lao2-lao3-lao3,4,"Tone2, Tone2, Tone3, Tone3",22,Medium,劳劳老，老牢佬,"4 tone variants of ""lao"""
+Tone_Series,bai,白摆百败,bai2-bai3-bai3-bai4,4,"Tone2, Tone3, Tone3, Tone4",21,Medium,白白百，百摆败,"4 tone variants of ""bai"""
+Tone_Series,xie,些邪胁斜写谢,xie1-xie2-xie2-xie2-xie3-xie4,6,"Tone1, Tone2, Tone2, Tone2, Tone3, Tone4",20,Medium,些邪胁斜写谢些邪胁,"6 tone variants of ""xie"""
+Tone_Series,chi,吃哧持迟尺齿翅,chi1-chi1-chi2-chi2-chi3-chi3-chi4,7,"Tone1, Tone1, Tone2, Tone2, Tone3, Tone3, Tone4",20,Medium,吃哧持迟尺齿翅吃哧持,"7 tone variants of ""chi"""
+Tone_Series,zhuo,桌拙捉,zhuo1-zhuo1-zhuo1,3,"Tone1, Tone1, Tone1",20,Easy,桌拙捉，捉拙桌,"3 tone variants of ""zhuo"""
+Tone_Series,shan,山闪扇擅,shan1-shan3-shan4-shan4,4,"Tone1, Tone3, Tone4, Tone4",20,Medium,山山扇，扇闪擅,"4 tone variants of ""shan"""
+Tone_Series,zhu,猪蛛烛主拄住注助柱祝著,zhu1-zhu1-zhu2-zhu3-zhu3-zhu4-zhu4-zhu4-zhu4-zhu4-zhu4,11,"Tone1, Tone1, Tone2, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",19,Medium,猪蛛烛主拄住注助柱祝著猪蛛烛,"11 tone variants of ""zhu"""
+Tone_Series,huo,活火伙霍获惑祸或,huo2-huo3-huo3-huo4-huo4-huo4-huo4-huo4,8,"Tone2, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",19,Medium,活火伙霍获惑祸或活火伙,"8 tone variants of ""huo"""
+Tone_Series,kong,空恐孔控,kong1-kong3-kong3-kong4,4,"Tone1, Tone3, Tone3, Tone4",19,Medium,空空孔，孔恐控,"4 tone variants of ""kong"""
+Tone_Series,pang,旁庞胖,pang2-pang2-pang4,3,"Tone2, Tone2, Tone4",19,Easy,旁庞胖，胖庞旁,"3 tone variants of ""pang"""
+Tone_Series,ji,激击机基讥叽姬稽肌鸡级及急极吉即集己几挤记继纪寂际迹剂既寄计忌,ji1-ji1-ji1-ji1-ji1-ji1-ji1-ji1-ji1-ji1-ji2-ji2-ji2-ji2-ji2-ji2-ji2-ji3-ji3-ji3-ji4-ji4-ji4-ji4-ji4-ji4-ji4-ji4-ji4-ji4-ji4,31,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",18,Medium,激击机基讥叽姬稽肌鸡级及急极吉即集己几挤记继纪寂际迹剂既寄计忌激击机,"31 tone variants of ""ji"""
+Tone_Series,qian,签千前钱潜钳浅欠歉,qian1-qian1-qian2-qian2-qian2-qian2-qian3-qian4-qian4,9,"Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone3, Tone4, Tone4",18,Medium,签千前钱潜钳浅欠歉签千前,"9 tone variants of ""qian"""
+Tone_Series,bi,逼鼻比笔彼必壁臂闭币避,bi1-bi2-bi3-bi3-bi3-bi4-bi4-bi4-bi4-bi4-bi4,11,"Tone1, Tone2, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",18,Medium,逼鼻比笔彼必壁臂闭币避逼鼻比,"11 tone variants of ""bi"""
+Tone_Series,tong,通同铜统捅桶痛,tong1-tong2-tong2-tong3-tong3-tong3-tong4,7,"Tone1, Tone2, Tone2, Tone3, Tone3, Tone3, Tone4",18,Medium,通同铜统捅桶痛通同铜,"7 tone variants of ""tong"""
+Tone_Series,wu,巫屋乌无五午捂舞伍武侮物雾误,wu1-wu1-wu1-wu2-wu3-wu3-wu3-wu3-wu3-wu3-wu3-wu4-wu4-wu4,14,"Tone1, Tone1, Tone1, Tone2, Tone3, Tone3, Tone3, Tone3, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4",18,Medium,巫屋乌无五午捂舞伍武侮物雾误巫屋乌,"14 tone variants of ""wu"""
+Tone_Series,xu,需须吁虚许续绪,xu1-xu1-xu1-xu1-xu3-xu4-xu4,7,"Tone1, Tone1, Tone1, Tone1, Tone3, Tone4, Tone4",18,Medium,需须吁虚许续绪需须吁,"7 tone variants of ""xu"""
+Tone_Series,wen,温文闻纹吻稳问,wen1-wen2-wen2-wen2-wen3-wen3-wen4,7,"Tone1, Tone2, Tone2, Tone2, Tone3, Tone3, Tone4",17,Medium,温文闻纹吻稳问温文闻,"7 tone variants of ""wen"""
+Tone_Series,tu,突图徒涂吐土,tu1-tu2-tu2-tu2-tu3-tu3,6,"Tone1, Tone2, Tone2, Tone2, Tone3, Tone3",17,Medium,突图徒涂吐土突图徒,"6 tone variants of ""tu"""
+Tone_Series,gong,公工功攻躬宫供共,gong1-gong1-gong1-gong1-gong1-gong1-gong1-gong4,8,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone4",17,Medium,公工功攻躬宫供共公工功,"8 tone variants of ""gong"""
+Tone_Series,suo,缩所索锁嗦,suo1-suo3-suo3-suo3-suo,5,"Tone1, Tone3, Tone3, Tone3, Neutral",17,Medium,缩所索锁嗦缩所索,"5 tone variants of ""suo"""
+Tone_Series,dang,当挡荡,dang1-dang3-dang4,3,"Tone1, Tone3, Tone4",17,Easy,当挡荡，荡挡当,"3 tone variants of ""dang"""
+Tone_Series,yuan,员原圆园缘远院愿怨,yuan2-yuan2-yuan2-yuan2-yuan2-yuan3-yuan4-yuan4-yuan4,9,"Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone4, Tone4, Tone4",17,Medium,员原圆园缘远院愿怨员原圆,"9 tone variants of ""yuan"""
+Tone_Series,zhou,周洲帚肘咒皱,zhou1-zhou1-zhou3-zhou3-zhou4-zhou4,6,"Tone1, Tone1, Tone3, Tone3, Tone4, Tone4",17,Medium,周洲帚肘咒皱周洲帚,"6 tone variants of ""zhou"""
+Tone_Series,xi,西希吸息悉膝夕晰稀兮嘻惜熄席习袭喜洗细系戏隙,xi1-xi1-xi1-xi1-xi1-xi1-xi1-xi1-xi1-xi1-xi1-xi1-xi1-xi2-xi2-xi2-xi3-xi3-xi4-xi4-xi4-xi4,22,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4",16,Medium,西希吸息悉膝夕晰稀兮嘻惜熄席习袭喜洗细系戏隙西希吸,"22 tone variants of ""xi"""
+Tone_Series,cai,猜才裁采彩睬踩,cai1-cai2-cai2-cai3-cai3-cai3-cai3,7,"Tone1, Tone2, Tone2, Tone3, Tone3, Tone3, Tone3",16,Medium,猜才裁采彩睬踩猜才裁,"7 tone variants of ""cai"""
+Tone_Series,mu,姆母拇牡目穆木墓幕慕,mu3-mu3-mu3-mu3-mu4-mu4-mu4-mu4-mu4-mu4,10,"Tone3, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",16,Medium,姆母拇牡目穆木墓幕慕姆母拇,"10 tone variants of ""mu"""
+Tone_Series,lang,啷狼廊朗浪,lang1-lang2-lang2-lang3-lang4,5,"Tone1, Tone2, Tone2, Tone3, Tone4",16,Medium,啷狼廊朗浪啷狼廊,"5 tone variants of ""lang"""
+Tone_Series,ru,如辱入,ru2-ru3-ru4,3,"Tone2, Tone3, Tone4",16,Easy,如辱入，入辱如,"3 tone variants of ""ru"""
+Tone_Series,nan,难男喃南,nan2-nan2-nan2-nan2,4,"Tone2, Tone2, Tone2, Tone2",16,Medium,难难喃，喃男南,"4 tone variants of ""nan"""
+Tone_Series,yan,烟恹淹焉严言颜沿研蜒眼鼹掩厌焰咽宴艳,yan1-yan1-yan1-yan1-yan2-yan2-yan2-yan2-yan2-yan2-yan3-yan3-yan3-yan4-yan4-yan4-yan4-yan4,18,"Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",15,Medium,烟恹淹焉严言颜沿研蜒眼鼹掩厌焰咽宴艳烟恹淹,"18 tone variants of ""yan"""
+Tone_Series,hu,乎呼糊胡湖狐壶弧护户互,hu1-hu1-hu2-hu2-hu2-hu2-hu2-hu2-hu4-hu4-hu4,11,"Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone4, Tone4, Tone4",15,Medium,乎呼糊胡湖狐壶弧护户互乎呼糊,"11 tone variants of ""hu"""
+Tone_Series,fen,分芬吩氛纷坟粉愤份奋粪,fen1-fen1-fen1-fen1-fen1-fen2-fen3-fen4-fen4-fen4-fen4,11,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone2, Tone3, Tone4, Tone4, Tone4, Tone4",15,Medium,分芬吩氛纷坟粉愤份奋粪分芬吩,"11 tone variants of ""fen"""
+Tone_Series,lou,楼髅搂漏陋,lou2-lou2-lou3-lou4-lou4,5,"Tone2, Tone2, Tone3, Tone4, Tone4",15,Medium,楼髅搂漏陋楼髅搂,"5 tone variants of ""lou"""
+Tone_Series,lan,兰蓝栏懒滥烂,lan2-lan2-lan2-lan3-lan4-lan4,6,"Tone2, Tone2, Tone2, Tone3, Tone4, Tone4",15,Medium,兰蓝栏懒滥烂兰蓝栏,"6 tone variants of ""lan"""
+Tone_Series,ling,灵铃零凌龄领另令,ling2-ling2-ling2-ling2-ling2-ling3-ling4-ling4,8,"Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone4, Tone4",15,Medium,灵铃零凌龄领另令灵铃零,"8 tone variants of ""ling"""
+Tone_Series,bing,冰饼并病,bing1-bing3-bing4-bing4,4,"Tone1, Tone3, Tone4, Tone4",15,Medium,冰冰并，并饼病,"4 tone variants of ""bing"""
+Tone_Series,yue,约月越悦,yue1-yue4-yue4-yue4,4,"Tone1, Tone4, Tone4, Tone4",15,Medium,约约越，越月悦,"4 tone variants of ""yue"""
+Tone_Series,chao,超朝嘲潮吵,chao1-chao2-chao2-chao2-chao3,5,"Tone1, Tone2, Tone2, Tone2, Tone3",14,Medium,超朝嘲潮吵超朝嘲,"5 tone variants of ""chao"""
+Tone_Series,fu,夫肤弗福伏服扶佛幅芙浮符蝠抚釜俯腑腐父副复付妇覆附咐,fu1-fu1-fu2-fu2-fu2-fu2-fu2-fu2-fu2-fu2-fu2-fu2-fu2-fu3-fu3-fu3-fu3-fu3-fu4-fu4-fu4-fu4-fu4-fu4-fu4-fu4,26,"Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",14,Medium,夫肤弗福伏服扶佛幅芙浮符蝠抚釜俯腑腐父副复付妇覆附咐夫肤弗,"26 tone variants of ""fu"""
+Tone_Series,dan,单担胆但蛋诞淡弹,dan1-dan1-dan3-dan4-dan4-dan4-dan4-dan4,8,"Tone1, Tone1, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",14,Medium,单担胆但蛋诞淡弹单担胆,"8 tone variants of ""dan"""
+Tone_Series,ping,平瓶坪屏凭,ping2-ping2-ping2-ping2-ping2,5,"Tone2, Tone2, Tone2, Tone2, Tone2",14,Medium,平瓶坪屏凭平瓶坪,"5 tone variants of ""ping"""
+Tone_Series,man,瞒满慢曼漫,man2-man3-man4-man4-man4,5,"Tone2, Tone3, Tone4, Tone4, Tone4",14,Medium,瞒满慢曼漫瞒满慢,"5 tone variants of ""man"""
+Tone_Series,mao,猫毛冒帽茂貌,mao1-mao2-mao4-mao4-mao4-mao4,6,"Tone1, Tone2, Tone4, Tone4, Tone4, Tone4",14,Medium,猫毛冒帽茂貌猫毛冒,"6 tone variants of ""mao"""
+Tone_Series,tui,推腿退,tui1-tui3-tui4,3,"Tone1, Tone3, Tone4",14,Easy,推腿退，退腿推,"3 tone variants of ""tui"""
+Tone_Series,an,安暗按,an1-an4-an4,3,"Tone1, Tone4, Tone4",14,Easy,安暗按，按暗安,"3 tone variants of ""an"""
+Tone_Series,zha,扎喳眨炸栅,zha1-zha1-zha3-zha4-zha4,5,"Tone1, Tone1, Tone3, Tone4, Tone4",13,Medium,扎喳眨炸栅扎喳眨,"5 tone variants of ""zha"""
+Tone_Series,ti,梯踢提题体惕替屉涕,ti1-ti1-ti2-ti2-ti3-ti4-ti4-ti4-ti4,9,"Tone1, Tone1, Tone2, Tone2, Tone3, Tone4, Tone4, Tone4, Tone4",13,Medium,梯踢提题体惕替屉涕梯踢提,"9 tone variants of ""ti"""
+Tone_Series,pa,啪趴爬怕帕,pa1-pa1-pa2-pa4-pa4,5,"Tone1, Tone1, Tone2, Tone4, Tone4",13,Medium,啪趴爬怕帕啪趴爬,"5 tone variants of ""pa"""
+Tone_Series,nong,农哝浓脓弄,nong2-nong2-nong2-nong2-nong4,5,"Tone2, Tone2, Tone2, Tone2, Tone4",13,Medium,农哝浓脓弄农哝浓,"5 tone variants of ""nong"""
+Tone_Series,qiang,腔呛跄墙强,qiang1-qiang1-qiang1-qiang2-qiang2,5,"Tone1, Tone1, Tone1, Tone2, Tone2",13,Medium,腔呛跄墙强腔呛跄,"5 tone variants of ""qiang"""
+Tone_Series,zong,踪棕总,zong1-zong1-zong3,3,"Tone1, Tone1, Tone3",13,Easy,踪棕总，总棕踪,"3 tone variants of ""zong"""
+Tone_Series,hun,昏魂浑混,hun1-hun2-hun2-hun4,4,"Tone1, Tone2, Tone2, Tone4",13,Medium,昏昏浑，浑魂混,"4 tone variants of ""hun"""
+Tone_Series,zhao,招找爪照召罩兆,zhao1-zhao3-zhao3-zhao4-zhao4-zhao4-zhao4,7,"Tone1, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4",12,Medium,招找爪照召罩兆招找爪,"7 tone variants of ""zhao"""
+Tone_Series,jie,接街阶节结杰竭捷解姐界介,jie1-jie1-jie1-jie2-jie2-jie2-jie2-jie2-jie3-jie3-jie4-jie4,12,"Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4",12,Medium,接街阶节结杰竭捷解姐界介接街阶,"12 tone variants of ""jie"""
+Tone_Series,ying,鹰应英赢迎荧蝇盈莹营影硬映,ying1-ying1-ying1-ying2-ying2-ying2-ying2-ying2-ying2-ying2-ying3-ying4-ying4,13,"Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone4, Tone4",12,Medium,鹰应英赢迎荧蝇盈莹营影硬映鹰应英,"13 tone variants of ""ying"""
+Tone_Series,shu,书舒殊输熟鼠暑属树术数束竖恕,shu1-shu1-shu1-shu1-shu2-shu3-shu3-shu3-shu4-shu4-shu4-shu4-shu4-shu4,14,"Tone1, Tone1, Tone1, Tone1, Tone2, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",12,Medium,书舒殊输熟鼠暑属树术数束竖恕书舒殊,"14 tone variants of ""shu"""
+Tone_Series,qie,且切怯窃,qie3-qie4-qie4-qie4,4,"Tone3, Tone4, Tone4, Tone4",12,Medium,且且怯，怯切窃,"4 tone variants of ""qie"""
+Tone_Series,leng,棱冷愣,leng2-leng3-leng4,3,"Tone2, Tone3, Tone4",12,Easy,棱冷愣，愣冷棱,"3 tone variants of ""leng"""
+Tone_Series,wan,弯剜蜿完玩晚碗万腕,wan1-wan1-wan1-wan2-wan2-wan3-wan3-wan4-wan4,9,"Tone1, Tone1, Tone1, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4",12,Medium,弯剜蜿完玩晚碗万腕弯剜蜿,"9 tone variants of ""wan"""
+Tone_Series,ya,压牙哑讶亚呀,ya1-ya2-ya3-ya4-ya4-ya,6,"Tone1, Tone2, Tone3, Tone4, Tone4, Neutral",12,Medium,压牙哑讶亚呀压牙哑,"6 tone variants of ""ya"""
+Tone_Series,zhan,詹沾粘盏展崭站占战绽蘸,zhan1-zhan1-zhan1-zhan3-zhan3-zhan3-zhan4-zhan4-zhan4-zhan4-zhan4,11,"Tone1, Tone1, Tone1, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",11,Medium,詹沾粘盏展崭站占战绽蘸詹沾粘,"11 tone variants of ""zhan"""
+Tone_Series,cheng,撑称成城承程诚惩,cheng1-cheng1-cheng2-cheng2-cheng2-cheng2-cheng2-cheng2,8,"Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone2",11,Medium,撑称成城承程诚惩撑称成,"8 tone variants of ""cheng"""
+Tone_Series,quan,圈全拳权蜷鬈,quan1-quan2-quan2-quan2-quan2-quan2,6,"Tone1, Tone2, Tone2, Tone2, Tone2, Tone2",11,Medium,圈全拳权蜷鬈圈全拳,"6 tone variants of ""quan"""
+Tone_Series,guan,关观冠官管馆盥惯灌罐,guan1-guan1-guan1-guan1-guan3-guan3-guan4-guan4-guan4-guan4,10,"Tone1, Tone1, Tone1, Tone1, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4",11,Medium,关观冠官管馆盥惯灌罐关观冠,"10 tone variants of ""guan"""
+Tone_Series,pu,扑噗仆普蹼铺,pu1-pu1-pu1-pu3-pu3-pu4,6,"Tone1, Tone1, Tone1, Tone3, Tone3, Tone4",11,Medium,扑噗仆普蹼铺扑噗仆,"6 tone variants of ""pu"""
+Tone_Series,huan,欢环缓换幻唤患,huan1-huan2-huan3-huan4-huan4-huan4-huan4,7,"Tone1, Tone2, Tone3, Tone4, Tone4, Tone4, Tone4",11,Medium,欢环缓换幻唤患欢环缓,"7 tone variants of ""huan"""
+Tone_Series,la,拉蜡辣啦,la1-la4-la4-la,4,"Tone1, Tone4, Tone4, Neutral",11,Medium,拉拉辣，辣蜡啦,"4 tone variants of ""la"""
+Tone_Series,bao,包胞薄保堡宝抱报爆暴,bao1-bao1-bao2-bao3-bao3-bao3-bao4-bao4-bao4-bao4,10,"Tone1, Tone1, Tone2, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4",11,Medium,包胞薄保堡宝抱报爆暴包胞薄,"10 tone variants of ""bao"""
+Tone_Series,song,松耸悚送,song1-song3-song3-song4,4,"Tone1, Tone3, Tone3, Tone4",11,Medium,松松悚，悚耸送,"4 tone variants of ""song"""
+Tone_Series,chen,沉晨尘辰陈,chen2-chen2-chen2-chen2-chen2,5,"Tone2, Tone2, Tone2, Tone2, Tone2",10,Medium,沉晨尘辰陈沉晨尘,"5 tone variants of ""chen"""
+Tone_Series,ju,鞠居局举句巨剧具据惧俱聚距,ju1-ju1-ju2-ju3-ju4-ju4-ju4-ju4-ju4-ju4-ju4-ju4-ju4,13,"Tone1, Tone1, Tone2, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",10,Medium,鞠居局举句巨剧具据惧俱聚距鞠居局,"13 tone variants of ""ju"""
+Tone_Series,zao,糟遭早躁造,zao1-zao1-zao3-zao4-zao4,5,"Tone1, Tone1, Tone3, Tone4, Tone4",10,Medium,糟遭早躁造糟遭早,"5 tone variants of ""zao"""
+Tone_Series,mi,眯迷弥米密秘蜜,mi1-mi2-mi2-mi3-mi4-mi4-mi4,7,"Tone1, Tone2, Tone2, Tone3, Tone4, Tone4, Tone4",10,Medium,眯迷弥米密秘蜜眯迷弥,"7 tone variants of ""mi"""
+Tone_Series,lu,噜卢炉鲁路露鹿录漉,lu1-lu2-lu2-lu3-lu4-lu4-lu4-lu4-lu4,9,"Tone1, Tone2, Tone2, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",10,Medium,噜卢炉鲁路露鹿录漉噜卢炉,"9 tone variants of ""lu"""
+Tone_Series,bang,帮邦膀绑棒,bang1-bang1-bang3-bang3-bang4,5,"Tone1, Tone1, Tone3, Tone3, Tone4",10,Medium,帮邦膀绑棒帮邦膀,"5 tone variants of ""bang"""
+Tone_Series,cha,叉插查茶差,cha1-cha1-cha2-cha2-cha4,5,"Tone1, Tone1, Tone2, Tone2, Tone4",10,Medium,叉插查茶差叉插查,"5 tone variants of ""cha"""
+Tone_Series,mai,埋买麦卖迈,mai2-mai3-mai4-mai4-mai4,5,"Tone2, Tone3, Tone4, Tone4, Tone4",10,Medium,埋买麦卖迈埋买麦,"5 tone variants of ""mai"""
+Tone_Series,qiao,敲悄乔瞧憔巧,qiao1-qiao1-qiao2-qiao2-qiao2-qiao3,6,"Tone1, Tone1, Tone2, Tone2, Tone2, Tone3",10,Medium,敲悄乔瞧憔巧敲悄乔,"6 tone variants of ""qiao"""
+Tone_Series,she,蛇舌舍摄社,she2-she2-she3-she4-she4,5,"Tone2, Tone2, Tone3, Tone4, Tone4",10,Medium,蛇舌舍摄社蛇舌舍,"5 tone variants of ""she"""
+Tone_Series,gou,勾狗够构,gou1-gou3-gou4-gou4,4,"Tone1, Tone3, Tone4, Tone4",10,Medium,勾勾够，够狗构,"4 tone variants of ""gou"""
+Tone_Series,po,珀破迫,po4-po4-po4,3,"Tone4, Tone4, Tone4",10,Easy,珀破迫，迫破珀,"3 tone variants of ""po"""
+Tone_Series,tang,汤堂唐糖膛躺趟,tang1-tang2-tang2-tang2-tang2-tang3-tang4,7,"Tone1, Tone2, Tone2, Tone2, Tone2, Tone3, Tone4",9,Medium,汤堂唐糖膛躺趟汤堂唐,"7 tone variants of ""tang"""
+Tone_Series,yu,于愉愚鱼余语与羽雨御育遇预豫欲狱誉,yu2-yu2-yu2-yu2-yu2-yu3-yu3-yu3-yu3-yu4-yu4-yu4-yu4-yu4-yu4-yu4-yu4,17,"Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",9,Medium,于愉愚鱼余语与羽雨御育遇预豫欲狱誉于愉愚,"17 tone variants of ""yu"""
+Tone_Series,fan,翻番烦凡反返饭犯泛,fan1-fan1-fan2-fan2-fan3-fan3-fan4-fan4-fan4,9,"Tone1, Tone1, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4, Tone4",9,Medium,翻番烦凡反返饭犯泛翻番烦,"9 tone variants of ""fan"""
+Tone_Series,lei,雷类累泪,lei2-lei4-lei4-lei4,4,"Tone2, Tone4, Tone4, Tone4",9,Medium,雷雷累，累类泪,"4 tone variants of ""lei"""
+Tone_Series,chan,蟾缠产颤,chan2-chan2-chan3-chan4,4,"Tone2, Tone2, Tone3, Tone4",9,Medium,蟾蟾产，产缠颤,"4 tone variants of ""chan"""
+Tone_Series,liu,溜留流柳六,liu1-liu2-liu2-liu3-liu4,5,"Tone1, Tone2, Tone2, Tone3, Tone4",9,Medium,溜留流柳六溜留流,"5 tone variants of ""liu"""
+Tone_Series,ai,哀埃矮爱,ai1-ai1-ai3-ai4,4,"Tone1, Tone1, Tone3, Tone4",9,Medium,哀哀矮，矮埃爱,"4 tone variants of ""ai"""
+Tone_Series,pai,拍排派,pai1-pai2-pai4,3,"Tone1, Tone2, Tone4",9,Easy,拍排派，派排拍,"3 tone variants of ""pai"""
+Tone_Series,lin,拎林临鳞凛,lin1-lin2-lin2-lin2-lin3,5,"Tone1, Tone2, Tone2, Tone2, Tone3",8,Medium,拎林临鳞凛拎林临,"5 tone variants of ""lin"""
+Tone_Series,kui,亏盔窥魁愧,kui1-kui1-kui1-kui2-kui4,5,"Tone1, Tone1, Tone1, Tone2, Tone4",8,Medium,亏盔窥魁愧亏盔窥,"5 tone variants of ""kui"""
+Tone_Series,chou,抽愁丑瞅臭,chou1-chou2-chou3-chou3-chou4,5,"Tone1, Tone2, Tone3, Tone3, Tone4",8,Medium,抽愁丑瞅臭抽愁丑,"5 tone variants of ""chou"""
+Tone_Series,peng,砰朋篷棚蓬膨捧碰,peng1-peng2-peng2-peng2-peng2-peng2-peng3-peng4,8,"Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Tone3, Tone4",8,Medium,砰朋篷棚蓬膨捧碰砰朋篷,"8 tone variants of ""peng"""
+Tone_Series,feng,封疯蜂风丰讽缝凤,feng1-feng1-feng1-feng1-feng1-feng3-feng4-feng4,8,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone3, Tone4, Tone4",8,Medium,封疯蜂风丰讽缝凤封疯蜂,"8 tone variants of ""feng"""
+Tone_Series,pao,抛袍咆跑炮泡,pao1-pao2-pao2-pao3-pao4-pao4,6,"Tone1, Tone2, Tone2, Tone3, Tone4, Tone4",8,Medium,抛袍咆跑炮泡抛袍咆,"6 tone variants of ""pao"""
+Tone_Series,chong,冲充忡虫宠,chong1-chong1-chong1-chong2-chong3,5,"Tone1, Tone1, Tone1, Tone2, Tone3",8,Medium,冲充忡虫宠冲充忡,"5 tone variants of ""chong"""
+Tone_Series,miao,苗秒妙,miao2-miao3-miao4,3,"Tone2, Tone3, Tone4",8,Easy,苗秒妙，妙秒苗,"3 tone variants of ""miao"""
+Tone_Series,tao,掏滔逃桃讨套,tao1-tao1-tao2-tao2-tao3-tao4,6,"Tone1, Tone1, Tone2, Tone2, Tone3, Tone4",8,Medium,掏滔逃桃讨套掏滔逃,"6 tone variants of ""tao"""
+Tone_Series,zhuang,装撞状壮,zhuang1-zhuang4-zhuang4-zhuang4,4,"Tone1, Tone4, Tone4, Tone4",8,Medium,装装状，状撞壮,"4 tone variants of ""zhuang"""
+Tone_Series,gui,规瑰龟鬼柜跪贵,gui1-gui1-gui1-gui3-gui4-gui4-gui4,7,"Tone1, Tone1, Tone1, Tone3, Tone4, Tone4, Tone4",7,Medium,规瑰龟鬼柜跪贵规瑰龟,"7 tone variants of ""gui"""
+Tone_Series,han,鼾含寒喊憾汉汗,han1-han2-han2-han3-han4-han4-han4,7,"Tone1, Tone2, Tone2, Tone3, Tone4, Tone4, Tone4",7,Medium,鼾含寒喊憾汉汗鼾含寒,"7 tone variants of ""han"""
+Tone_Series,jiang,将僵姜浆讲奖降,jiang1-jiang1-jiang1-jiang1-jiang3-jiang3-jiang4,7,"Tone1, Tone1, Tone1, Tone1, Tone3, Tone3, Tone4",7,Medium,将僵姜浆讲奖降将僵姜,"7 tone variants of ""jiang"""
+Tone_Series,can,参餐残惨灿,can1-can1-can2-can3-can4,5,"Tone1, Tone1, Tone2, Tone3, Tone4",7,Medium,参餐残惨灿参餐残,"5 tone variants of ""can"""
+Tone_Series,bo,波玻拨剥播膊博脖伯勃卜,bo1-bo1-bo1-bo1-bo1-bo2-bo2-bo2-bo2-bo2-bo,11,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone2, Neutral",7,Medium,波玻拨剥播膊博脖伯勃卜波玻拨,"11 tone variants of ""bo"""
+Tone_Series,sha,杀沙煞刹莎傻,sha1-sha1-sha1-sha1-sha1-sha3,6,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone3",7,Medium,杀沙煞刹莎傻杀沙煞,"6 tone variants of ""sha"""
+Tone_Series,nai,奶耐奈,nai3-nai4-nai4,3,"Tone3, Tone4, Tone4",7,Easy,奶耐奈，奈耐奶,"3 tone variants of ""nai"""
+Tone_Series,gu,姑咕辜孤估古股骨鼓谷顾故固,gu1-gu1-gu1-gu1-gu1-gu3-gu3-gu3-gu3-gu3-gu4-gu4-gu4,13,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone3, Tone3, Tone3, Tone3, Tone3, Tone4, Tone4, Tone4",7,Medium,姑咕辜孤估古股骨鼓谷顾故固姑咕辜,"13 tone variants of ""gu"""
+Tone_Series,mang,忙芒茫,mang2-mang2-mang2,3,"Tone2, Tone2, Tone2",7,Easy,忙芒茫，茫芒忙,"3 tone variants of ""mang"""
+Tone_Series,huang,荒慌黄凰晃,huang1-huang1-huang2-huang2-huang3,5,"Tone1, Tone1, Tone2, Tone2, Tone3",7,Medium,荒慌黄凰晃荒慌黄,"5 tone variants of ""huang"""
+Tone_Series,duan,端短段断,duan1-duan3-duan4-duan4,4,"Tone1, Tone3, Tone4, Tone4",7,Medium,端端段，段短断,"4 tone variants of ""duan"""
+Tone_Series,xiu,休修羞秀嗅袖,xiu1-xiu1-xiu1-xiu4-xiu4-xiu4,6,"Tone1, Tone1, Tone1, Tone4, Tone4, Tone4",6,Medium,休修羞秀嗅袖休修羞,"6 tone variants of ""xiu"""
+Tone_Series,pei,陪佩配,pei2-pei4-pei4,3,"Tone2, Tone4, Tone4",6,Easy,陪佩配，配佩陪,"3 tone variants of ""pei"""
+Tone_Series,cuo,撮错措,cuo1-cuo4-cuo4,3,"Tone1, Tone4, Tone4",6,Easy,撮错措，措错撮,"3 tone variants of ""cuo"""
+Tone_Series,dun,敦蹲顿,dun1-dun1-dun4,3,"Tone1, Tone1, Tone4",6,Easy,敦蹲顿，顿蹲敦,"3 tone variants of ""dun"""
+Tone_Series,que,瘸却确雀,que2-que4-que4-que4,4,"Tone2, Tone4, Tone4, Tone4",6,Medium,瘸瘸确，确却雀,"4 tone variants of ""que"""
+Tone_Series,lie,咧烈列猎裂冽,lie3-lie4-lie4-lie4-lie4-lie4,6,"Tone3, Tone4, Tone4, Tone4, Tone4, Tone4",6,Medium,咧烈列猎裂冽咧烈列,"6 tone variants of ""lie"""
+Tone_Series,long,龙笼咙隆聋胧,long2-long2-long2-long2-long2-long2,6,"Tone2, Tone2, Tone2, Tone2, Tone2, Tone2",6,Medium,龙笼咙隆聋胧龙笼咙,"6 tone variants of ""long"""
+Tone_Series,nu,奴弩努怒,nu2-nu3-nu3-nu4,4,"Tone2, Tone3, Tone3, Tone4",6,Medium,奴奴努，努弩怒,"4 tone variants of ""nu"""
+Tone_Series,kuang,框哐狂况,kuang1-kuang1-kuang2-kuang4,4,"Tone1, Tone1, Tone2, Tone4",6,Medium,框框狂，狂哐况,"4 tone variants of ""kuang"""
+Tone_Series,kao,考烤靠,kao3-kao3-kao4,3,"Tone3, Tone3, Tone4",6,Easy,考烤靠，靠烤考,"3 tone variants of ""kao"""
+Tone_Series,yun,晕允运,yun1-yun3-yun4,3,"Tone1, Tone3, Tone4",6,Easy,晕允运，运允晕,"3 tone variants of ""yun"""
+Tone_Series,xuan,旋悬选,xuan2-xuan2-xuan3,3,"Tone2, Tone2, Tone3",6,Easy,旋悬选，选悬旋,"3 tone variants of ""xuan"""
+Tone_Series,pi,噼批披皮啤疲脾匹屁,pi1-pi1-pi1-pi2-pi2-pi2-pi2-pi3-pi4,9,"Tone1, Tone1, Tone1, Tone2, Tone2, Tone2, Tone2, Tone3, Tone4",5,Medium,噼批披皮啤疲脾匹屁噼批披,"9 tone variants of ""pi"""
+Tone_Series,e,额鹅恶饿噩愕厄鳄,e2-e2-e4-e4-e4-e4-e4-e4,8,"Tone2, Tone2, Tone4, Tone4, Tone4, Tone4, Tone4, Tone4",5,Medium,额鹅恶饿噩愕厄鳄额鹅恶,"8 tone variants of ""e"""
+Tone_Series,shao,烧捎梢勺少绍哨,shao1-shao1-shao1-shao2-shao3-shao4-shao4,7,"Tone1, Tone1, Tone1, Tone2, Tone3, Tone4, Tone4",5,Medium,烧捎梢勺少绍哨烧捎梢,"7 tone variants of ""shao"""
+Tone_Series,rong,茸容蓉绒荣,rong1-rong2-rong2-rong2-rong2,5,"Tone1, Tone2, Tone2, Tone2, Tone2",5,Medium,茸容蓉绒荣茸容蓉,"5 tone variants of ""rong"""
+Tone_Series,meng,蒙朦檬猛梦,meng2-meng2-meng2-meng3-meng4,5,"Tone2, Tone2, Tone2, Tone3, Tone4",5,Medium,蒙朦檬猛梦蒙朦檬,"5 tone variants of ""meng"""
+Tone_Series,diao,叼雕掉调吊,diao1-diao1-diao4-diao4-diao4,5,"Tone1, Tone1, Tone4, Tone4, Tone4",5,Medium,叼雕掉调吊叼雕掉,"5 tone variants of ""diao"""
+Tone_Series,cun,村存寸,cun1-cun2-cun4,3,"Tone1, Tone2, Tone4",5,Easy,村存寸，寸存村,"3 tone variants of ""cun"""
+Tone_Series,du,嘟独读毒赌堵睹度肚,du1-du2-du2-du2-du3-du3-du3-du4-du4,9,"Tone1, Tone2, Tone2, Tone2, Tone3, Tone3, Tone3, Tone4, Tone4",5,Medium,嘟独读毒赌堵睹度肚嘟独读,"9 tone variants of ""du"""
+Tone_Series,cang,苍仓藏,cang1-cang1-cang2,3,"Tone1, Tone1, Tone2",5,Easy,苍仓藏，藏仓苍,"3 tone variants of ""cang"""
+Tone_Series,lun,轮伦论,lun2-lun2-lun4,3,"Tone2, Tone2, Tone4",5,Easy,轮伦论，论伦轮,"3 tone variants of ""lun"""
+Tone_Series,xiong,兄胸凶匈汹雄,xiong1-xiong1-xiong1-xiong1-xiong1-xiong2,6,"Tone1, Tone1, Tone1, Tone1, Tone1, Tone2",4,Medium,兄胸凶匈汹雄兄胸凶,"6 tone variants of ""xiong"""
+Tone_Series,xun,勋熏寻训迅,xun1-xun1-xun2-xun4-xun4,5,"Tone1, Tone1, Tone2, Tone4, Tone4",4,Medium,勋熏寻训迅勋熏寻,"5 tone variants of ""xun"""
+Tone_Series,sui,虽随岁碎祟隧,sui1-sui2-sui4-sui4-sui4-sui4,6,"Tone1, Tone2, Tone4, Tone4, Tone4, Tone4",4,Medium,虽随岁碎祟隧虽随岁,"6 tone variants of ""sui"""
+Tone_Series,ku,哭骷苦库酷裤,ku1-ku1-ku3-ku4-ku4-ku4,6,"Tone1, Tone1, Tone3, Tone4, Tone4, Tone4",4,Medium,哭骷苦库酷裤哭骷苦,"6 tone variants of ""ku"""
+Tone_Series,lv,旅捋缕绿虑律,lv3-lv3-lv3-lv4-lv4-lv4,6,"Tone3, Tone3, Tone3, Tone4, Tone4, Tone4",4,Medium,旅捋缕绿虑律旅捋缕,"6 tone variants of ""lv"""
+Tone_Series,tan,瘫谈坛毯坦叹探,tan1-tan2-tan2-tan3-tan3-tan4-tan4,7,"Tone1, Tone2, Tone2, Tone3, Tone3, Tone4, Tone4",4,Medium,瘫谈坛毯坦叹探瘫谈坛,"7 tone variants of ""tan"""
+Tone_Series,tuo,拖脱驼唾,tuo1-tuo1-tuo2-tuo4,4,"Tone1, Tone1, Tone2, Tone4",4,Medium,拖拖驼，驼脱唾,"4 tone variants of ""tuo"""
+Tone_Series,pan,盘叛盼判,pan2-pan4-pan4-pan4,4,"Tone2, Tone4, Tone4, Tone4",3,Medium,盘盘盼，盼叛判,"4 tone variants of ""pan"""
+Tone_Series,piao,漂飘瞟,piao1-piao1-piao3,3,"Tone1, Tone1, Tone3",3,Easy,漂飘瞟，瞟飘漂,"3 tone variants of ""piao"""
+Tone_Series,wa,蛙娃瓦袜,wa1-wa2-wa3-wa4,4,"Tone1, Tone2, Tone3, Tone4",3,Medium,蛙蛙瓦，瓦娃袜,"4 tone variants of ""wa"""
+Tone_Series,chun,唇纯蠢,chun2-chun2-chun3,3,"Tone2, Tone2, Tone3",3,Easy,唇纯蠢，蠢纯唇,"3 tone variants of ""chun"""
+Tone_Series,zu,族足阻组,zu2-zu2-zu3-zu3,4,"Tone2, Tone2, Tone3, Tone3",2,Medium,族族阻，阻足组,"4 tone variants of ""zu"""
+Tone_Series,ce,侧厕策,ce4-ce4-ce4,3,"Tone4, Tone4, Tone4",2,Easy,侧厕策，策厕侧,"3 tone variants of ""ce"""
+Tone_Series,ao,熬傲奥,ao2-ao4-ao4,3,"Tone2, Tone4, Tone4",2,Easy,熬傲奥，奥傲熬,"3 tone variants of ""ao"""
+Tone_Series,ning,凝宁柠,ning2-ning2-ning2,3,"Tone2, Tone2, Tone2",2,Easy,凝宁柠，柠宁凝,"3 tone variants of ""ning"""
+Retroflex_Palatal_Dental,sh-q-z,是气自,shi4-qi4-zi4,3,4,454,Hard,是气自，自气是,Retroflex→Palatal→Dental: sh-q-z
+Retroflex_Dental,sh-s,说缩,shuo1-suo1,2,1,348,Hard,说说缩，缩缩说,Retroflex→Dental: sh-s
+Retroflex_Dental,zh-s,这色,zhe4-se4,2,4,329,Hard,这这色，色色这,Retroflex→Dental: zh-s
+Retroflex_Dental,sh-z,上脏,shang4-zang4,2,4,314,Hard,上上脏，脏脏上,Retroflex→Dental: sh-z
+Retroflex_Dental,sh-z,手走,shou3-zou3,2,3,184,Hard,手手走，走走手,Retroflex→Dental: sh-z
+Retroflex_Palatal_Dental,zh-q-s,只起死,zhi3-qi3-si3,3,3,177,Hard,只起死，死起只,Retroflex→Palatal→Dental: zh-q-s
+Retroflex_Dental,sh-z,声增,sheng1-zeng1,2,1,169,Hard,声声增，增增声,Retroflex→Dental: sh-z
+Retroflex_Palatal_Dental,zh-q-s,住去诉,zhu4-qu4-su4,3,4,158,Hard,住去诉，诉去住,Retroflex→Palatal→Dental: zh-q-s
+Retroflex_Palatal_Dental,zh-x-s,知西斯,zhi1-xi1-si1,3,1,153,Hard,知西斯，斯西知,Retroflex→Palatal→Dental: zh-x-s
+Retroflex_Palatal_Dental,sh-q-c,时奇茨,shi2-qi2-ci2,3,2,127,Hard,时奇茨，茨奇时,Retroflex→Palatal→Dental: sh-q-c
+Retroflex_Dental,ch-c,虫从,chong2-cong2,2,2,125,Hard,虫虫从，从从虫,Retroflex→Dental: ch-c
+Retroflex_Palatal_Dental,ch-x-c,出需粗,chu1-xu1-cu1,3,1,113,Hard,出需粗，粗需出,Retroflex→Palatal→Dental: ch-x-c
+Retroflex_Dental,sh-s,身森,shen1-sen1,2,1,88,Hard,身身森，森森身,Retroflex→Dental: sh-s
+Retroflex_Dental,sh-z,睡最,shui4-zui4,2,4,87,Hard,睡睡最，最最睡,Retroflex→Dental: sh-z
+Retroflex_Dental,sh-z,烁做,shuo4-zuo4,2,4,61,Hard,烁烁做，做做烁,Retroflex→Dental: sh-z
+Retroflex_Dental,sh-z,审怎,shen3-zen3,2,3,61,Hard,审审怎，怎怎审,Retroflex→Dental: sh-z
+Retroflex_Dental,zh-c,张苍,zhang1-cang1,2,1,59,Hard,张张苍，苍苍张,Retroflex→Dental: zh-c
+Retroflex_Dental,zh-s,长嗓,zhang3-sang3,2,3,59,Hard,长长嗓，嗓嗓长,Retroflex→Dental: zh-s
+Retroflex_Dental,zh-s,找扫,zhao3-sao3,2,3,57,Hard,找找扫，扫扫找,Retroflex→Dental: zh-s
+Retroflex_Dental,zh-z,种总,zhong3-zong3,2,3,56,Hard,种种总，总总种,Retroflex→Dental: zh-z
+Retroflex_Dental,zh-s,中松,zhong1-song1,2,1,55,Hard,中中松，松松中,Retroflex→Dental: zh-s
+Retroflex_Dental,sh-s,山三,shan1-san1,2,1,54,Hard,山山三，三三山,Retroflex→Dental: sh-s
+Retroflex_Dental,zh-s,站散,zhan4-san4,2,4,50,Hard,站站散，散散站,Retroflex→Dental: zh-s
+Retroflex_Dental,sh-c,授凑,shou4-cou4,2,4,46,Hard,授授凑，凑凑授,Retroflex→Dental: sh-c
+Retroflex_Dental,zh-z,正锃,zheng4-zeng4,2,4,43,Hard,正正锃，锃锃正,Retroflex→Dental: zh-z
+Retroflex_Palatal,ch-q,传全,chuan2-quan2,2,2,43,Hard,传传全，全全传,Retroflex→Palatal: ch-q
+Retroflex_Dental,ch-c,常藏,chang2-cang2,2,2,41,Hard,常常藏，藏藏常,Retroflex→Dental: ch-c
+Retroflex_Palatal,zh-x,转选,zhuan3-xuan3,2,3,39,Hard,转转选，选选转,Retroflex→Palatal: zh-x
+Retroflex_Dental,sh-z,水嘴,shui3-zui3,2,3,37,Hard,水水嘴，嘴嘴水,Retroflex→Dental: sh-z
+Retroflex_Dental,ch-c,成曾,cheng2-ceng2,2,2,34,Hard,成成曾，曾曾成,Retroflex→Dental: ch-c
+Retroflex_Dental,sh-s,谁随,shui2-sui2,2,2,33,Hard,谁谁随，随随谁,Retroflex→Dental: sh-s
+Retroflex_Dental,zh-s,重送,zhong4-song4,2,4,30,Hard,重重送，送送重,Retroflex→Dental: zh-s
+Retroflex_Dental,sh-s,闪伞,shan3-san3,2,3,28,Hard,闪闪伞，伞伞闪,Retroflex→Dental: sh-s
+Retroflex_Palatal_Dental,zh-x-z,主许阻,zhu3-xu3-zu3,3,3,25,Hard,主许阻，阻许主,Retroflex→Palatal→Dental: zh-x-z
+Retroflex_Palatal_Dental,ch-q-z,穿圈钻,chuan1-quan1-zuan1,3,1,22,Hard,穿圈钻，钻圈穿,Retroflex→Palatal→Dental: ch-q-z
+Retroflex_Dental,ch-s,抽嗖,chou1-sou1,2,1,18,Hard,抽抽嗖，嗖嗖抽,Retroflex→Dental: ch-s
+Retroflex_Dental,sh-c,杀擦,sha1-ca1,2,1,15,Hard,杀杀擦，擦擦杀,Retroflex→Dental: sh-c
+Retroflex_Dental,zh-s,摘塞,zhai1-sai1,2,1,14,Hard,摘摘塞，塞塞摘,Retroflex→Dental: zh-s
+Retroflex_Dental,sh-z,蛇则,she2-ze2,2,2,10,Hard,蛇蛇则，则则蛇,Retroflex→Dental: sh-z
+Retroflex_Dental,zh-z,窄仔,zhai3-zai3,2,3,10,Hard,窄窄仔，仔仔窄,Retroflex→Dental: zh-z
+Retroflex_Dental,sh-z,烧糟,shao1-zao1,2,1,10,Hard,烧烧糟，糟糟烧,Retroflex→Dental: sh-z
+Retroflex_Palatal_Dental,ch-q-c,唇群存,chun2-qun2-cun2,3,2,8,Hard,唇群存，存群唇,Retroflex→Palatal→Dental: ch-q-c
+Retroflex_Palatal_Dental,sh-x-c,顺训寸,shun4-xun4-cun4,3,4,8,Hard,顺训寸，寸训顺,Retroflex→Palatal→Dental: sh-x-c
+Retroflex_Dental,zh-z,照躁,zhao4-zao4,2,4,7,Hard,照照躁，躁躁照,Retroflex→Dental: zh-z
+Retroflex_Palatal_Dental,ch-j-z,除局族,chu2-ju2-zu2,3,2,7,Hard,除局族，族局除,Retroflex→Palatal→Dental: ch-j-z
+Retroflex_Dental,ch-z,查砸,cha2-za2,2,2,6,Hard,查查砸，砸砸查,Retroflex→Dental: ch-z
+Retroflex_Palatal_Dental,ch-j-s,串倦算,chuan4-juan4-suan4,3,4,5,Hard,串倦算，算倦串,Retroflex→Palatal→Dental: ch-j-s
+Retroflex_Dental,zh-s,追虽,zhui1-sui1,2,1,4,Hard,追追虽，虽虽追,Retroflex→Dental: zh-s
+Retroflex_Dental,ch-c,蟾残,chan2-can2,2,2,3,Hard,蟾蟾残，残残蟾,Retroflex→Dental: ch-c
+Palatal_Dental,j-c,军村,jun1-cun1,2,1,2,Hard,军军村，村村军,Palatal→Dental: j-c
+n_ng_Contrast,an-ang,扇上,shan4-shang4,2,4,319,Hard,扇扇上，上上扇,n/ng final: an-ang
+n_ng_Contrast,en-eng,身声,shen1-sheng1,2,1,253,Hard,身身声，声声身,n/ng final: en-eng
+n_ng_Contrast,en-eng,人仍,ren2-reng2,2,2,251,Hard,人人仍，仍仍人,n/ng final: en-eng
+n_ng_Contrast,an-ong,看控,kan4-kong4,2,4,214,Hard,看看控，控控看,n/ng final: an-ong
+n_ng_Contrast,an-eng,难能,nan2-neng2,2,2,136,Hard,难难能，能能难,n/ng final: an-eng
+n_ng_Contrast,en-eng,什绳,shen2-sheng2,2,2,135,Hard,什什绳，绳绳什,n/ng final: en-eng
+n_ng_Contrast,en-ang,问望,wen4-wang4,2,4,126,Hard,问问望，望望问,n/ng final: en-ang
+n_ng_Contrast,un-ong,存从,cun2-cong2,2,2,119,Hard,存存从，从从存,n/ng final: un-ong
+n_ng_Contrast,an-ing,眼影,yan3-ying3,2,3,113,Hard,眼眼影，影影眼,n/ng final: an-ing
+n_ng_Contrast,en-ang,真张,zhen1-zhang1,2,1,100,Hard,真真张，张张真,n/ng final: en-ang
+n_ng_Contrast,en-ang,恩肮,en1-ang1,2,1,98,Hard,恩恩肮，肮肮恩,n/ng final: en-ang
+n_ng_Contrast,an-eng,站正,zhan4-zheng4,2,4,92,Hard,站站正，正正站,n/ng final: an-eng
+n_ng_Contrast,an-ong,厌用,yan4-yong4,2,4,91,Hard,厌厌用，用用厌,n/ng final: an-ong
+n_ng_Contrast,en-ong,跟公,gen1-gong1,2,1,89,Hard,跟跟公，公公跟,n/ng final: en-ong
+n_ng_Contrast,en-ing,门明,men2-ming2,2,2,86,Hard,门门明，明明门,n/ng final: en-ing
+n_ng_Contrast,an-ong,但动,dan4-dong4,2,4,85,Hard,但但动，动动但,n/ng final: an-ong
+n_ng_Contrast,in-ing,金睛,jin1-jing1,2,1,85,Hard,金金睛，睛睛金,n/ng final: in-ing
+n_ng_Contrast,in-ing,音鹰,yin1-ying1,2,1,84,Hard,音音鹰，鹰鹰音,n/ng final: in-ing
+n_ng_Contrast,in-eng,敏猛,min3-meng3,2,3,83,Hard,敏敏猛，猛猛敏,n/ng final: in-eng
+n_ng_Contrast,in-ing,心星,xin1-xing1,2,1,83,Hard,心心星，星星心,n/ng final: in-ing
+n_ng_Contrast,en-ang,认让,ren4-rang4,2,4,76,Hard,认认让，让让认,n/ng final: en-ang
+n_ng_Contrast,en-ong,怎总,zen3-zong3,2,3,73,Hard,怎怎总，总总怎,n/ng final: en-ong
+n_ng_Contrast,an-eng,干更,gan4-geng4,2,4,67,Hard,干干更，更更干,n/ng final: an-eng
+n_ng_Contrast,un-ing,吞听,tun1-ting1,2,1,66,Hard,吞吞听，听听吞,n/ng final: un-ing
+n_ng_Contrast,un-ang,准长,zhun3-zhang3,2,3,66,Hard,准准长，长长准,n/ng final: un-ang
+n_ng_Contrast,en-ang,分方,fen1-fang1,2,1,63,Hard,分分方，方方分,n/ng final: en-ang
+n_ng_Contrast,an-ong,三松,san1-song1,2,1,60,Hard,三三松，松松三,n/ng final: an-ong
+n_ng_Contrast,en-ang,沉常,chen2-chang2,2,2,59,Hard,沉沉常，常常沉,n/ng final: en-ang
+n_ng_Contrast,an-ang,兰狼,lan2-lang2,2,2,56,Hard,兰兰狼，狼狼兰,n/ng final: an-ang
+n_ng_Contrast,in-ing,进静,jin4-jing4,2,4,56,Hard,进进静，静静进,n/ng final: in-ing
+n_ng_Contrast,in-ing,信幸,xin4-xing4,2,4,50,Hard,信信幸，幸幸信,n/ng final: in-ing
+n_ng_Contrast,an-ing,办并,ban4-bing4,2,4,47,Hard,办办并，并并办,n/ng final: an-ing
+n_ng_Contrast,un-ing,群情,qun2-qing2,2,2,46,Hard,群群情，情情群,n/ng final: un-ing
+n_ng_Contrast,an-ong,单东,dan1-dong1,2,1,45,Hard,单单东，东东单,n/ng final: an-ong
+n_ng_Contrast,in-ing,紧警,jin3-jing3,2,3,43,Hard,紧紧警，警警紧,n/ng final: in-ing
+n_ng_Contrast,in-ing,亲清,qin1-qing1,2,1,43,Hard,亲亲清，清清亲,n/ng final: in-ing
+n_ng_Contrast,an-ang,烦房,fan2-fang2,2,2,42,Hard,烦烦房，房房烦,n/ng final: an-ang
+n_ng_Contrast,an-ong,谈同,tan2-tong2,2,2,39,Hard,谈谈同，同同谈,n/ng final: an-ong
+n_ng_Contrast,en-ang,本膀,ben3-bang3,2,3,37,Hard,本本膀，膀膀本,n/ng final: en-ang
+n_ng_Contrast,un-ing,寻形,xun2-xing2,2,2,37,Hard,寻寻形，形形寻,n/ng final: un-ing
+n_ng_Contrast,an-ang,晚往,wan3-wang3,2,3,36,Hard,晚晚往，往往晚,n/ng final: an-ang
+n_ng_Contrast,an-ang,饭放,fan4-fang4,2,4,35,Hard,饭饭放，放放饭,n/ng final: an-ang
+n_ng_Contrast,an-ing,盘平,pan2-ping2,2,2,33,Hard,盘盘平，平平盘,n/ng final: an-ing
+n_ng_Contrast,an-ang,产场,chan3-chang3,2,3,30,Hard,产产场，场场产,n/ng final: an-ang
+n_ng_Contrast,an-ong,刊空,kan1-kong1,2,1,28,Hard,刊刊空，空空刊,n/ng final: an-ong
+n_ng_Contrast,en-ong,肯恐,ken3-kong3,2,3,27,Hard,肯肯恐，恐恐肯,n/ng final: en-ong
+n_ng_Contrast,an-ing,滥另,lan4-ling4,2,4,26,Hard,滥滥另，另另滥,n/ng final: an-ing
+n_ng_Contrast,un-ong,魂红,hun2-hong2,2,2,26,Hard,魂魂红，红红魂,n/ng final: un-ong
+n_ng_Contrast,an-ang,班帮,ban1-bang1,2,1,25,Hard,班班帮，帮帮班,n/ng final: an-ang
+n_ng_Contrast,an-ing,慢命,man4-ming4,2,4,21,Hard,慢慢命，命命慢,n/ng final: an-ing
+n_ng_Contrast,an-eng,胆等,dan3-deng3,2,3,21,Hard,胆胆等，等等胆,n/ng final: an-eng
+n_ng_Contrast,an-ang,完王,wan2-wang2,2,2,19,Hard,完完王，王王完,n/ng final: an-ang
+n_ng_Contrast,an-eng,懒冷,lan3-leng3,2,3,18,Hard,懒懒冷，冷冷懒,n/ng final: an-eng
+n_ng_Contrast,an-ong,参匆,can1-cong1,2,1,17,Hard,参参匆，匆匆参,n/ng final: an-ong
+n_ng_Contrast,an-ang,严羊,yan2-yang2,2,2,15,Hard,严严羊，羊羊严,n/ng final: an-ang
+n_ng_Contrast,an-ang,毯躺,tan3-tang3,2,3,12,Hard,毯毯躺，躺躺毯,n/ng final: an-ang
+n_ng_Contrast,an-ong,散送,san4-song4,2,4,10,Hard,散散送，送送散,n/ng final: an-ong
+n_ng_Contrast,un-eng,昏哼,hun1-heng1,2,1,8,Hard,昏昏哼，哼哼昏,n/ng final: un-eng
+n_ng_Contrast,an-ang,反仿,fan3-fang3,2,3,8,Hard,反反仿，仿仿反,n/ng final: an-ang
+n_ng_Contrast,an-ong,叹痛,tan4-tong4,2,4,8,Hard,叹叹痛，痛痛叹,n/ng final: an-ong
+n_ng_Contrast,an-ang,叛胖,pan4-pang4,2,4,8,Hard,叛叛胖，胖胖叛,n/ng final: an-ang
+n_ng_Contrast,in-eng,拼砰,pin1-peng1,2,1,8,Hard,拼拼砰，砰砰拼,n/ng final: in-eng
+n_ng_Contrast,en-ang,忍嚷,ren3-rang3,2,3,8,Hard,忍忍嚷，嚷嚷忍,n/ng final: en-ang
+n_ng_Contrast,in-eng,品捧,pin3-peng3,2,3,6,Hard,品品捧，捧捧品,n/ng final: in-eng
+n_ng_Contrast,an-ang,伞嗓,san3-sang3,2,3,4,Hard,伞伞嗓，嗓嗓伞,n/ng final: an-ang
+n_ng_Contrast,an-eng,弯嗡,wan1-weng1,2,1,4,Hard,弯弯嗡，嗡嗡弯,n/ng final: an-eng
+n_ng_Contrast,in-ang,拎啷,lin1-lang1,2,1,3,Hard,拎拎啷，啷啷拎,n/ng final: in-ang
+Aspiration_Contrast,d-t,搭他,da1-ta1,2,1,819,Medium,搭搭他，他他搭,Aspiration: d vs t
+Aspiration_Contrast,d-t,地惕,di4-ti4,2,4,583,Medium,地地惕，惕惕地,Aspiration: d vs t
+Aspiration_Contrast,b-p,不铺,bu4-pu4,2,4,560,Medium,不不铺，铺铺不,Aspiration: b vs p
+Aspiration_Contrast,g-k,个克,ge4-ke4,2,4,473,Medium,个个克，克克个,Aspiration: g vs k
+Aspiration_Contrast,d-t,到套,dao4-tao4,2,4,237,Medium,到到套，套套到,Aspiration: d vs t
+Aspiration_Contrast,g-k,干看,gan4-kan4,2,4,237,Medium,干干看，看看干,Aspiration: g vs k
+Aspiration_Contrast,j-q,己起,ji3-qi3,2,3,192,Medium,己己起，起起己,Aspiration: j vs q
+Aspiration_Contrast,d-t,大踏,da4-ta4,2,4,179,Medium,大大踏，踏踏大,Aspiration: d vs t
+Aspiration_Contrast,d-t,都偷,dou1-tou1,2,1,161,Medium,都都偷，偷偷都,Aspiration: d vs t
+Aspiration_Contrast,j-q,句去,ju4-qu4,2,4,150,Medium,句句去，去去句,Aspiration: j vs q
+Aspiration_Contrast,g-k,过廓,guo4-kuo4,2,4,150,Medium,过过廓，廓廓过,Aspiration: g vs k
+Aspiration_Contrast,zh-ch,知吃,zhi1-chi1,2,1,144,Medium,知知吃，吃吃知,Aspiration: zh vs ch
+Aspiration_Contrast,d-t,多拖,duo1-tuo1,2,1,144,Medium,多多拖，拖拖多,Aspiration: d vs t
+Aspiration_Contrast,zh-ch,猪出,zhu1-chu1,2,1,143,Medium,猪猪出，出出猪,Aspiration: zh vs ch
+Aspiration_Contrast,j-q,见欠,jian4-qian4,2,4,130,Medium,见见欠，欠欠见,Aspiration: j vs q
+Aspiration_Contrast,zh-ch,只尺,zhi3-chi3,2,3,126,Medium,只只尺，尺尺只,Aspiration: zh vs ch
+Aspiration_Contrast,z-c,自次,zi4-ci4,2,4,125,Medium,自自次，次次自,Aspiration: z vs c
+Aspiration_Contrast,g-k,该开,gai1-kai1,2,1,120,Medium,该该开，开开该,Aspiration: g vs k
+Aspiration_Contrast,j-q,记气,ji4-qi4,2,4,108,Medium,记记气，气气记,Aspiration: j vs q
+Aspiration_Contrast,d-t,对退,dui4-tui4,2,4,108,Medium,对对退，退退对,Aspiration: d vs t
+Aspiration_Contrast,g-k,怪快,guai4-kuai4,2,4,92,Medium,怪怪快，快快怪,Aspiration: g vs k
+Aspiration_Contrast,d-t,盯听,ding1-ting1,2,1,90,Medium,盯盯听，听听盯,Aspiration: d vs t
+Aspiration_Contrast,d-t,甸天,dian1-tian1,2,1,89,Medium,甸甸天，天天甸,Aspiration: d vs t
+Aspiration_Contrast,j-q,级奇,ji2-qi2,2,2,88,Medium,级级奇，奇奇级,Aspiration: j vs q
+Aspiration_Contrast,zh-ch,长场,zhang3-chang3,2,3,81,Medium,长长场，场场长,Aspiration: zh vs ch
+Aspiration_Contrast,j-q,睛清,jing1-qing1,2,1,79,Medium,睛睛清，清清睛,Aspiration: j vs q
+Aspiration_Contrast,d-t,袋太,dai4-tai4,2,4,75,Medium,袋袋太，太太袋,Aspiration: d vs t
+Aspiration_Contrast,z-c,最脆,zui4-cui4,2,4,75,Medium,最最脆，脆脆最,Aspiration: z vs c
+Aspiration_Contrast,b-p,被佩,bei4-pei4,2,4,72,Medium,被被佩，佩佩被,Aspiration: b vs p
+Aspiration_Contrast,zh-ch,住处,zhu4-chu4,2,4,68,Medium,住住处，处处住,Aspiration: zh vs ch
+Aspiration_Contrast,g-k,狗口,gou3-kou3,2,3,66,Medium,狗狗口，口口狗,Aspiration: g vs k
+Aspiration_Contrast,j-q,间签,jian1-qian1,2,1,66,Medium,间间签，签签间,Aspiration: j vs q
+Aspiration_Contrast,z-c,做错,zuo4-cuo4,2,4,65,Medium,做做错，错错做,Aspiration: z vs c
+Aspiration_Contrast,b-p,边篇,bian1-pian1,2,1,63,Medium,边边篇，篇篇边,Aspiration: b vs p
+Aspiration_Contrast,zh-ch,站颤,zhan4-chan4,2,4,61,Medium,站站颤，颤颤站,Aspiration: zh vs ch
+Aspiration_Contrast,g-k,公空,gong1-kong1,2,1,59,Medium,公公空，空空公,Aspiration: g vs k
+Aspiration_Contrast,b-p,比匹,bi3-pi3,2,3,57,Medium,比比匹，匹匹比,Aspiration: b vs p
+Aspiration_Contrast,g-k,告靠,gao4-kao4,2,4,57,Medium,告告靠，靠靠告,Aspiration: g vs k
+Aspiration_Contrast,d-t,动痛,dong4-tong4,2,4,57,Medium,动动痛，痛痛动,Aspiration: d vs t
+Aspiration_Contrast,zh-ch,中冲,zhong1-chong1,2,1,56,Medium,中中冲，冲冲中,Aspiration: zh vs ch
+Aspiration_Contrast,d-t,打塔,da3-ta3,2,3,54,Medium,打打塔，塔塔打,Aspiration: d vs t
+Aspiration_Contrast,zh-ch,转喘,zhuan3-chuan3,2,3,53,Medium,转转喘，喘喘转,Aspiration: zh vs ch
+Aspiration_Contrast,b-p,变片,bian4-pian4,2,4,52,Medium,变变片，片片变,Aspiration: b vs p
+Aspiration_Contrast,d-t,东通,dong1-tong1,2,1,51,Medium,东东通，通通东,Aspiration: d vs t
+Aspiration_Contrast,j-q,金亲,jin1-qin1,2,1,50,Medium,金金亲，亲亲金,Aspiration: j vs q
+Aspiration_Contrast,d-t,低梯,di1-ti1,2,1,45,Medium,低低梯，梯梯低,Aspiration: d vs t
+Aspiration_Contrast,zh-ch,直持,zhi2-chi2,2,2,45,Medium,直直持，持持直,Aspiration: zh vs ch
+Aspiration_Contrast,zh-ch,种宠,zhong3-chong3,2,3,42,Medium,种种宠，宠宠种,Aspiration: zh vs ch
+Aspiration_Contrast,g-k,光框,guang1-kuang1,2,1,42,Medium,光光框，框框光,Aspiration: g vs k
+Aspiration_Contrast,j-q,觉瘸,jue2-que2,2,2,41,Medium,觉觉瘸，瘸瘸觉,Aspiration: j vs q
+Aspiration_Contrast,b-p,巴啪,ba1-pa1,2,1,40,Medium,巴巴啪，啪啪巴,Aspiration: b vs p
+Aspiration_Contrast,d-t,嘟突,du1-tu1,2,1,39,Medium,嘟嘟突，突突嘟,Aspiration: d vs t
+Aspiration_Contrast,d-t,迪提,di2-ti2,2,2,38,Medium,迪迪提，提提迪,Aspiration: d vs t
+Aspiration_Contrast,d-t,但叹,dan4-tan4,2,4,35,Medium,但但叹，叹叹但,Aspiration: d vs t
+Aspiration_Contrast,b-p,白排,bai2-pai2,2,2,33,Medium,白白排，排排白,Aspiration: b vs p
+Aspiration_Contrast,zh-ch,找吵,zhao3-chao3,2,3,32,Medium,找找吵，吵吵找,Aspiration: zh vs ch
+Aspiration_Contrast,j-q,界切,jie4-qie4,2,4,32,Medium,界界切，切切界,Aspiration: j vs q
+Aspiration_Contrast,b-p,办叛,ban4-pan4,2,4,28,Medium,办办叛，叛叛办,Aspiration: b vs p
+Aspiration_Contrast,zh-ch,周抽,zhou1-chou1,2,1,28,Medium,周周抽，抽抽周,Aspiration: zh vs ch
+Aspiration_Contrast,j-q,脚巧,jiao3-qiao3,2,3,28,Medium,脚脚巧，巧巧脚,Aspiration: j vs q
+Aspiration_Contrast,zh-ch,专穿,zhuan1-chuan1,2,1,28,Medium,专专穿，穿穿专,Aspiration: zh vs ch
+Aspiration_Contrast,b-p,保跑,bao3-pao3,2,3,27,Medium,保保跑，跑跑保,Aspiration: b vs p
+Aspiration_Contrast,g-k,刚康,gang1-kang1,2,1,27,Medium,刚刚康，康康刚,Aspiration: g vs k
+Aspiration_Contrast,b-p,补普,bu3-pu3,2,3,26,Medium,补补普，普普补,Aspiration: b vs p
+Aspiration_Contrast,j-q,激期,ji1-qi1,2,1,25,Medium,激激期，期期激,Aspiration: j vs q
+Aspiration_Contrast,d-t,底体,di3-ti3,2,3,25,Medium,底底体，体体底,Aspiration: d vs t
+Aspiration_Contrast,g-k,关宽,guan1-kuan1,2,1,25,Medium,关关宽，宽宽关,Aspiration: g vs k
+Aspiration_Contrast,b-p,爸怕,ba4-pa4,2,4,24,Medium,爸爸怕，怕怕爸,Aspiration: b vs p
+Aspiration_Contrast,j-q,举取,ju3-qu3,2,3,24,Medium,举举取，取取举,Aspiration: j vs q
+Aspiration_Contrast,z-c,早草,zao3-cao3,2,3,22,Medium,早早草，草草早,Aspiration: z vs c
+Aspiration_Contrast,b-p,鼻皮,bi2-pi2,2,2,22,Medium,鼻鼻皮，皮皮鼻,Aspiration: b vs p
+Aspiration_Contrast,d-t,当汤,dang1-tang1,2,1,22,Medium,当当汤，汤汤当,Aspiration: d vs t
+Aspiration_Contrast,zh-ch,装窗,zhuang1-chuang1,2,1,21,Medium,装装窗，窗窗装,Aspiration: zh vs ch
+Aspiration_Contrast,zh-ch,主楚,zhu3-chu3,2,3,21,Medium,主主楚，楚楚主,Aspiration: zh vs ch
+Aspiration_Contrast,zh-ch,帚丑,zhou3-chou3,2,3,20,Medium,帚帚丑，丑丑帚,Aspiration: zh vs ch
+Aspiration_Contrast,zh-ch,遮车,zhe1-che1,2,1,20,Medium,遮遮车，车车遮,Aspiration: zh vs ch
+Aspiration_Contrast,g-k,共控,gong4-kong4,2,4,19,Medium,共共控，控控共,Aspiration: g vs k
+Aspiration_Contrast,zh-ch,炸差,zha4-cha4,2,4,17,Medium,炸炸差，差差炸,Aspiration: zh vs ch
+Aspiration_Contrast,d-t,掉跳,diao4-tiao4,2,4,17,Medium,掉掉跳，跳跳掉,Aspiration: d vs t
+Aspiration_Contrast,j-q,简浅,jian3-qian3,2,3,17,Medium,简简浅，浅浅简,Aspiration: j vs q
+Aspiration_Contrast,j-q,静庆,jing4-qing4,2,4,17,Medium,静静庆，庆庆静,Aspiration: j vs q
+Aspiration_Contrast,g-k,瓜夸,gua1-kua1,2,1,17,Medium,瓜瓜夸，夸夸瓜,Aspiration: g vs k
+Aspiration_Contrast,j-q,将腔,jiang1-qiang1,2,1,16,Medium,将将腔，腔腔将,Aspiration: j vs q
+Aspiration_Contrast,d-t,独图,du2-tu2,2,2,16,Medium,独独图，图图独,Aspiration: d vs t
+Aspiration_Contrast,d-t,顶挺,ding3-ting3,2,3,16,Medium,顶顶挺，挺挺顶,Aspiration: d vs t
+Aspiration_Contrast,d-t,堆推,dui1-tui1,2,1,16,Medium,堆堆推，推推堆,Aspiration: d vs t
+Aspiration_Contrast,b-p,必屁,bi4-pi4,2,4,15,Medium,必必屁，屁屁必,Aspiration: b vs p
+Aspiration_Contrast,b-p,表瞟,biao3-piao3,2,3,15,Medium,表表瞟，瞟瞟表,Aspiration: b vs p
+Aspiration_Contrast,zh-ch,咒臭,zhou4-chou4,2,4,14,Medium,咒咒臭，臭臭咒,Aspiration: zh vs ch
+Aspiration_Contrast,z-c,仔采,zai3-cai3,2,3,14,Medium,仔仔采，采采仔,Aspiration: z vs c
+Aspiration_Contrast,g-k,胳棵,ge1-ke1,2,1,14,Medium,胳胳棵，棵棵胳,Aspiration: g vs k
+Aspiration_Contrast,j-q,交敲,jiao1-qiao1,2,1,14,Medium,交交敲，敲敲交,Aspiration: j vs q
+Aspiration_Contrast,zh-ch,治翅,zhi4-chi4,2,4,13,Medium,治治翅，翅翅治,Aspiration: zh vs ch
+Aspiration_Contrast,d-t,挡躺,dang3-tang3,2,3,12,Medium,挡挡躺，躺躺挡,Aspiration: d vs t
+Aspiration_Contrast,b-p,包抛,bao1-pao1,2,1,12,Medium,包包抛，抛抛包,Aspiration: b vs p
+Aspiration_Contrast,zh-ch,准蠢,zhun3-chun3,2,3,12,Medium,准准蠢，蠢蠢准,Aspiration: zh vs ch
+Aspiration_Contrast,b-p,棒胖,bang4-pang4,2,4,11,Medium,棒棒胖，胖胖棒,Aspiration: b vs p
+Aspiration_Contrast,g-k,姑哭,gu1-ku1,2,1,11,Medium,姑姑哭，哭哭姑,Aspiration: g vs k
+Aspiration_Contrast,d-t,斗透,dou4-tou4,2,4,11,Medium,斗斗透，透透斗,Aspiration: d vs t
+Aspiration_Contrast,g-k,顾库,gu4-ku4,2,4,10,Medium,顾顾库，库库顾,Aspiration: g vs k
+Aspiration_Contrast,zh-ch,争撑,zheng1-cheng1,2,1,10,Medium,争争撑，撑撑争,Aspiration: zh vs ch
+Aspiration_Contrast,g-k,挂跨,gua4-kua4,2,4,10,Medium,挂挂跨，跨跨挂,Aspiration: g vs k
+Aspiration_Contrast,d-t,单瘫,dan1-tan1,2,1,10,Medium,单单瘫，瘫瘫单,Aspiration: d vs t
+Aspiration_Contrast,z-c,踪匆,zong1-cong1,2,1,10,Medium,踪踪匆，匆匆踪,Aspiration: z vs c
+Aspiration_Contrast,zh-ch,烛除,zhu2-chu2,2,2,10,Medium,烛烛除，除除烛,Aspiration: zh vs ch
+Aspiration_Contrast,j-q,警请,jing3-qing3,2,3,10,Medium,警警请，请请警,Aspiration: j vs q
+Aspiration_Contrast,j-q,解且,jie3-qie3,2,3,10,Medium,解解且，且且解,Aspiration: j vs q
+Aspiration_Contrast,g-k,古苦,gu3-ku3,2,3,9,Medium,古古苦，苦苦古,Aspiration: g vs k
+Aspiration_Contrast,b-p,标漂,biao1-piao1,2,1,9,Medium,标标漂，漂漂标,Aspiration: b vs p
+Aspiration_Contrast,b-p,抱炮,bao4-pao4,2,4,8,Medium,抱抱炮，炮炮抱,Aspiration: b vs p
+Aspiration_Contrast,g-k,柜愧,gui4-kui4,2,4,8,Medium,柜柜愧，愧愧柜,Aspiration: g vs k
+Aspiration_Contrast,g-k,搞考,gao3-kao3,2,3,8,Medium,搞搞考，考考搞,Aspiration: g vs k
+Aspiration_Contrast,d-t,叨掏,dao1-tao1,2,1,8,Medium,叨叨掏，掏掏叨,Aspiration: d vs t
+Aspiration_Contrast,d-t,呆胎,dai1-tai1,2,1,7,Medium,呆呆胎，胎胎呆,Aspiration: d vs t
+Aspiration_Contrast,z-c,糟糙,zao1-cao1,2,1,7,Medium,糟糟糙，糙糙糟,Aspiration: z vs c
+Aspiration_Contrast,b-p,薄袍,bao2-pao2,2,2,7,Medium,薄薄袍，袍袍薄,Aspiration: b vs p
+Aspiration_Contrast,b-p,拔爬,ba2-pa2,2,2,7,Medium,拔拔爬，爬爬拔,Aspiration: b vs p
+Aspiration_Contrast,z-c,钻蹿,zuan1-cuan1,2,1,7,Medium,钻钻蹿，蹿蹿钻,Aspiration: z vs c
+Aspiration_Contrast,b-p,败派,bai4-pai4,2,4,6,Medium,败败派，派派败,Aspiration: b vs p
+Aspiration_Contrast,z-c,紫此,zi3-ci3,2,3,6,Medium,紫紫此，此此紫,Aspiration: z vs c
+Aspiration_Contrast,b-p,宾拼,bin1-pin1,2,1,6,Medium,宾宾拼，拼拼宾,Aspiration: b vs p
+Aspiration_Contrast,d-t,懂统,dong3-tong3,2,3,6,Medium,懂懂统，统统懂,Aspiration: d vs t
+Aspiration_Contrast,g-k,逛况,guang4-kuang4,2,4,6,Medium,逛逛况，况况逛,Aspiration: g vs k
+Aspiration_Contrast,zh-ch,扎叉,zha1-cha1,2,1,5,Medium,扎扎叉，叉叉扎,Aspiration: zh vs ch
+Aspiration_Contrast,j-q,鞠曲,ju1-qu1,2,1,5,Medium,鞠鞠曲，曲曲鞠,Aspiration: j vs q
+Aspiration_Contrast,zh-ch,盏产,zhan3-chan3,2,3,5,Medium,盏盏产，产产盏,Aspiration: zh vs ch
+Aspiration_Contrast,z-c,灾猜,zai1-cai1,2,1,5,Medium,灾灾猜，猜猜灾,Aspiration: z vs c
+Aspiration_Contrast,d-t,跌贴,die1-tie1,2,1,5,Medium,跌跌贴，贴贴跌,Aspiration: d vs t
+Aspiration_Contrast,d-t,叼挑,diao1-tiao1,2,1,5,Medium,叼叼挑，挑挑叼,Aspiration: d vs t
+Aspiration_Contrast,zh-ch,追吹,zhui1-chui1,2,1,5,Medium,追追吹，吹吹追,Aspiration: zh vs ch
+Aspiration_Contrast,g-k,嘎咔,ga1-ka1,2,1,4,Medium,嘎嘎咔，咔咔嘎,Aspiration: g vs k
+Aspiration_Contrast,b-p,绷砰,beng1-peng1,2,1,4,Medium,绷绷砰，砰砰绷,Aspiration: b vs p
+Aspiration_Contrast,b-p,逼噼,bi1-pi1,2,1,3,Medium,逼逼噼，噼噼逼,Aspiration: b vs p
+Aspiration_Contrast,d-t,荡趟,dang4-tang4,2,4,3,Medium,荡荡趟，趟趟荡,Aspiration: d vs t
+Aspiration_Contrast,zh-ch,者扯,zhe3-che3,2,3,3,Medium,者者扯，扯扯者,Aspiration: zh vs ch
+Aspiration_Contrast,d-t,夺驼,duo2-tuo2,2,2,3,Medium,夺夺驼，驼驼夺,Aspiration: d vs t
+Aspiration_Contrast,g-k,尴刊,gan1-kan1,2,1,3,Medium,尴尴刊，刊刊尴,Aspiration: g vs k
+Aspiration_Contrast,zh-ch,招超,zhao1-chao1,2,1,3,Medium,招招超，超超招,Aspiration: zh vs ch
+Aspiration_Contrast,d-t,胆毯,dan3-tan3,2,3,2,Medium,胆胆毯，毯毯胆,Aspiration: d vs t
+Aspiration_Contrast,d-t,赌吐,du3-tu3,2,3,2,Medium,赌赌吐，吐吐赌,Aspiration: d vs t
+Aspiration_Contrast,g-k,规亏,gui1-kui1,2,1,2,Medium,规规亏，亏亏规,Aspiration: g vs k
+Aspiration_Contrast,d-t,敦吞,dun1-tun1,2,1,2,Medium,敦敦吞，吞吞敦,Aspiration: d vs t
+Aspiration_Contrast,g-k,改凯,gai3-kai3,2,3,1,Medium,改改凯，凯凯改,Aspiration: g vs k

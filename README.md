@@ -26,6 +26,15 @@ Traditional language learning follows a predictable path: vocabulary → grammar
      - Character → Pinyin (5-choice multiple choice: 4 tones + neutral)
      - Pinyin → Character (5-choice with prime-based randomization)
      - 3,854 total flashcard variations ready for Anki
+   - **Character Definitions:**
+     - Complete English definitions for all 1,927 characters via OpenRouter API
+     - Claude Sonnet 4.5 model with XML-formatted prompts
+     - 100% success rate with parallel processing (26 minutes total)
+     - Includes definition, usage context, and part of speech
+   - **Pronunciation Practice:**
+     - 56,023 minimal pairs (tone contrast pairs)
+     - 519 consolidated tongue twisters for voice recording
+     - 12 retroflex-palatal-dental phonetic progressions
    - Total frequency captured: 333,233 occurrences
 
 2. **Korean** (Testing Ground)
@@ -44,13 +53,16 @@ Traditional language learning follows a predictable path: vocabulary → grammar
 - ✅ Frequency-based chunking system (Mandarin: 1K segments, Korean: 10K chunks)
 - ✅ Dual-stage learning workflow: Quizlet (exposure) → Anki (retention)
 - ✅ Journal system documenting daily insights and patterns
-- ✅ Weekly review system for pattern analysis and planning
+- ✅ Weekly review system for pattern analysis and planning (Week Oct 6-12 complete)
 - ✅ Seoul accent IPA transliteration (formal + casual connected speech rules)
 - ✅ Korean processing: 1.07M+ n-grams with dual IPA columns
 - ✅ Mandarin character extraction (1,927 characters from Harry Potter corpus)
 - ✅ Dual flashcard formats: Character→Pinyin and Pinyin→Character
 - ✅ Mathematical randomization for distractor selection (no patterns)
-- 🔄 Flashcard generation pipeline with context/nuance columns
+- ✅ OpenRouter API integration: English definitions for all 1,927 Mandarin characters
+- ✅ Minimal pairs & tongue twisters: 56K pairs → 519 consolidated entries
+- ✅ Parallel processing implementation (4.6x speed improvement)
+- 📋 Voice actor recording session (planned: 519 tongue twisters)
 - 📋 GitHub automation agent (planned)
 
 ---
@@ -59,8 +71,11 @@ Traditional language learning follows a predictable path: vocabulary → grammar
 
 ### **Immediate Roadmap** (Oct 2025)
 - [x] **Korean IPA Transliteration**: ✅ Complete - 1.07M+ n-grams with Seoul accent (formal + casual)
-- [x] **Weekly Review System**: ✅ Established - First review completed (Sep 28 - Oct 5)
-- [ ] **Flashcard Infrastructure**: Finalize additional columns (honorifics, examples, translations, context)
+- [x] **Weekly Review System**: ✅ Established - Reviews completed (Sep 28 - Oct 5, Oct 6-12)
+- [x] **Mandarin Character Definitions**: ✅ Complete - 1,927 characters with English definitions via OpenRouter API
+- [x] **Minimal Pairs & Tongue Twisters**: ✅ Complete - 56K pairs consolidated to 519 entries
+- [ ] **Anki Deck Setup**: Import character flashcards with 90%+ recall threshold
+- [ ] **Voice Actor Recording**: Record 519 tongue twisters (slow/normal/fast speeds)
 - [ ] **파친코 Immersion**: Begin audiobook repetition experiment (reading + listening)
 - [ ] **Automation**: GitHub agent MVP for commit/push workflows
 - [ ] **Spanish Processing**: Complete corpus → n-gram pipeline
@@ -101,8 +116,12 @@ Language-Learning-Journey/
 │   │   ├── ngrams/
 │   │   │   ├── source/               # Original and processed n-grams
 │   │   │   ├── chunks/               # 22 chunked files (1,000 n-grams each)
-│   │   │   ├── characters/           # 1,927 character extractions
-│   │   │   │   └── by_character/     # Individual character CSV files
+│   │   │   ├── characters/           # Character analysis & definitions
+│   │   │   │   ├── by_character/     # Individual character CSV files (1,927)
+│   │   │   │   ├── consolidated_characters.csv                    # All characters with pinyin
+│   │   │   │   ├── consolidated_characters_with_definitions.csv   # + English definitions
+│   │   │   │   ├── minimal_pairs_for_production.csv               # 56,023 tone pairs
+│   │   │   │   └── consolidated_tongue_twisters.csv               # 519 pronunciation drills
 │   │   │   └── flashcards/           # Multiple choice formats
 │   │   ├── frequency_lists/          # Harry Potter word frequencies
 │   │   └── reports/                  # Analysis and validation
@@ -196,11 +215,25 @@ Single words lack context. Full sentences are overwhelming. N-grams (2-6 word ch
   - 30.6% "unique" entries ALL had irregular spacing (OCR artifacts)
 - **Lesson**: Clean source text critical; subtitle corpus quality confirmed
 
-#### Mandarin Flashcard Infrastructure (Oct 10, 2025)
+#### Mandarin Character Analysis & Definitions (Oct 9-12, 2025)
 - ✅ **Character Extraction**: 1,927 unique characters from Harry Potter n-grams
   - Individual character files with all containing n-grams
   - Consolidated CSV with pypinyin-generated pinyin
   - Frequency-sorted for prioritized learning
+
+- ✅ **English Definitions via OpenRouter API**:
+  - Claude Sonnet 4.5 model with XML-formatted prompts
+  - Parallel processing: 100 concurrent requests (4.6x speed improvement)
+  - Processing time: 26 minutes for all 1,927 characters
+  - Success rate: 100% (1 JSON error fixed, all pinyin validated)
+  - Output includes: definition, usage context, part of speech
+  - Estimated cost: ~$4.50
+
+- ✅ **Minimal Pairs & Tongue Twisters**:
+  - Generated 56,023 minimal pairs (same pinyin, different tones)
+  - Consolidated to 519 practical tongue twisters
+  - Categories: tone series, aspiration contrasts, nasal finals, retroflex chains
+  - Voice actor recording ready (slow/normal/fast speeds)
 
 - ✅ **Dual Flashcard Formats**:
   - **Character → Pinyin**: 5-choice tone selection (1st-4th + neutral)
@@ -208,9 +241,10 @@ Single words lack context. Full sentences are overwhelming. N-grams (2-6 word ch
   - Mathematical randomization prevents pattern memorization
   - Answer distribution verified: 18-23% per position (balanced)
 
-- **Impact**: Ready for Anki import with 90%+ recall threshold
-  - Multiple choice format reduces initial difficulty
-  - Dual formats reinforce bidirectional learning
+- **Impact**: Complete learning infrastructure ready
+  - Definitions provide semantic understanding
+  - Tongue twisters enable pronunciation practice
+  - Flashcards reinforce recognition and recall
   - Frequency prioritization ensures high-value study time
 
 ### **Previous Findings**
@@ -264,11 +298,12 @@ Language learning is the vehicle. The destination is **learning how to learn**�
 ## 📚 Key Resources
 
 ### **In This Repository**
-- [Daily Summaries](Daily_Summaries/) - Comprehensive work logs with metrics and insights
-- [Weekly Reviews](Journal_Entries/Weekly_Reviews/) - Analysis, patterns, actionable steps
+- [Weekly Reviews](Journal_Entries/2025/10/) - Analysis, patterns, actionable steps (Oct 6-12 latest)
 - [Daily Journals](Journal_Entries/2025/) - Raw observations and reflections
 - [Korean Processing Guide](languages/korean/KOREAN_PROCESSING_DOCUMENTATION.md) - Complete IPA system documentation
 - [Korean N-grams with IPA](languages/korean/ngrams/chunks_with_ipa/) - 1.07M+ entries, dual transliterations
+- [Mandarin Character Definitions](languages/mandarin/ngrams/characters/consolidated_characters_with_definitions.csv) - 1,927 characters with English definitions
+- [Mandarin Tongue Twisters](languages/mandarin/ngrams/characters/consolidated_tongue_twisters.csv) - 519 pronunciation drills
 - [N-gram Data](languages/) - Processed frequency lists ready for study
 
 ### **External Learning Stack**
@@ -320,7 +355,7 @@ Want to track your own journey? Use this template:
 ## 🔗 Quick Links
 
 - **Repository**: [RexRenatus/Language-Learning-Journey](https://github.com/RexRenatus/Language-Learning-Journey)
-- **Latest Review**: [Week Sep 28 - Oct 5](Journal_Entries/Weekly_Reviews/Week_Sep28-Oct05_2025.md)
+- **Latest Review**: [Week Oct 6-12, 2025](Journal_Entries/2025/10/Weekly_Review_Oct_6-12.md)
 - **Current Focus**: [October 2025 Journal](Journal_Entries/2025/10/)
 
 ---
@@ -337,5 +372,5 @@ Welcome to the journey. 🚀
 
 ---
 
-*Last Updated: October 10, 2025*
-*Languages in Progress: 3 | N-grams Processed: 1,091,473+ | Characters: 1,927 | Flashcards: 3,854 | Korean IPA: ✅ | Weekly Reviews: Active*
+*Last Updated: October 12, 2025*
+*Languages in Progress: 3 | N-grams Processed: 1,091,473+ | Characters: 1,927 | Character Definitions: 1,927 | Flashcards: 3,854 | Tongue Twisters: 519 | Minimal Pairs: 56,023 | Korean IPA: ✅ | Weekly Reviews: Active*
