@@ -1,6 +1,5 @@
 <!-- Mandarin Character to Pinyin - Neural Network Back Card -->
-<div class="card neural-card card-back">
-  <div class="neural-frame neural-success">
+<div class="neural-frame neural-success">
     <!-- Neural background (success state) -->
     <div class="neural-background success-state">
       <div class="neuron-layer active"></div>
@@ -34,12 +33,32 @@
       <div class="usage-content">{{Usage}}</div>
     </div>
 
-    <!-- Part of Speech Badge -->
-    <div class="pos-badge">{{Part_of_Speech}}</div>
-  </div>
+  <!-- Part of Speech Badge -->
+  <div class="pos-badge">{{Part_of_Speech}}</div>
 </div>
 
 <style>
+/* === ANKI MOBILE FIX === */
+.card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--neural-deep);
+}
+
 /* === ROOT VARIABLES === */
 :root {
   --neural-deep: #0a0e27;
@@ -62,8 +81,8 @@
   --radius-full: 50%;
 }
 
-/* === CARD CONTAINER === */
-.neural-card {
+/* === NEURAL FRAME === */
+.neural-frame {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
   position: fixed;
   top: 0;
@@ -78,21 +97,10 @@
   overflow-x: hidden;
   overflow-y: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-/* === NEURAL FRAME === */
-.neural-frame {
-  width: 95%;
-  max-width: 900px;
-  position: relative;
-  display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: var(--spacing-lg);
-  padding: var(--spacing-lg);
   z-index: 1;
   box-sizing: border-box;
 }
