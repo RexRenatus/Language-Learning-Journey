@@ -1,0 +1,391 @@
+<!-- Mandarin Character to Pinyin - Neural Network Back Card -->
+<div class="card neural-card card-back">
+  <div class="neural-frame neural-success">
+    <!-- Neural background (success state) -->
+    <div class="neural-background success-state">
+      <div class="neuron-layer active"></div>
+      <div class="synapse-layer glowing"></div>
+    </div>
+
+    <!-- Portal effect (success) -->
+    <div class="portal-effect success"></div>
+
+    <!-- Character with Correct Answer -->
+    <div class="character-neuron answered">
+      <h1 class="character-display">
+        {{Item}}
+        <span class="pinyin-answer">({{Correct_Answer}})</span>
+      </h1>
+      <div class="order-number">Character #{{Order Number}}</div>
+    </div>
+
+    <!-- Correct Answer Highlight -->
+    <div class="answer-synapse revealed">
+      <div class="answer-content">
+        <span class="check-icon">✓</span>
+        <span class="answer-label">CORRECT:</span>
+        <span class="answer-value">{{Correct_Answer}}</span>
+      </div>
+    </div>
+
+    <!-- Usage Examples -->
+    <div class="usage-synapse">
+      <div class="usage-label">USAGE:</div>
+      <div class="usage-content">{{Usage}}</div>
+    </div>
+
+    <!-- Part of Speech Badge -->
+    <div class="pos-badge">{{Part_of_Speech}}</div>
+  </div>
+</div>
+
+<style>
+/* === ROOT VARIABLES === */
+:root {
+  --neural-deep: #0a0e27;
+  --neural-mid: #1a1f3a;
+  --neuron-cyan: #00f2fe;
+  --neuron-blue: #4facfe;
+  --synapse-glow: rgba(79, 172, 254, 0.6);
+  --synapse-line: rgba(100, 200, 255, 0.3);
+  --success-primary: #40ff80;
+  --success-glow: rgba(64, 255, 128, 0.4);
+  --success-bg: rgba(40, 200, 80, 0.12);
+  --text-primary: #ffffff;
+  --text-secondary: #e0e6ff;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 50%;
+}
+
+/* === CARD CONTAINER === */
+.neural-card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
+           env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
+  background: radial-gradient(ellipse at center, var(--neural-mid) 0%, var(--neural-deep) 100%);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* === NEURAL FRAME === */
+.neural-frame {
+  width: 95%;
+  max-width: 900px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+/* === NEURAL BACKGROUND (Success State) === */
+.neural-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.neural-background.success-state .neuron-layer {
+  animation: neuron-activate 2s ease-out forwards;
+}
+
+@keyframes neuron-activate {
+  from {
+    opacity: 0.25;
+    filter: hue-rotate(0deg);
+  }
+  to {
+    opacity: 0.4;
+    filter: hue-rotate(80deg);
+  }
+}
+
+.neural-background.success-state .synapse-layer {
+  background-image:
+    linear-gradient(90deg, transparent 48%, var(--success-primary) 50%, transparent 52%),
+    linear-gradient(0deg, transparent 48%, var(--success-primary) 50%, transparent 52%);
+  opacity: 0.18;
+  animation: synapse-success-glow 2s ease-out forwards;
+}
+
+@keyframes synapse-success-glow {
+  from { opacity: 0.12; }
+  to { opacity: 0.18; }
+}
+
+.neuron-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(circle, var(--neuron-cyan) 2px, transparent 2px),
+    radial-gradient(circle, var(--neuron-blue) 1px, transparent 1px);
+  background-size: 150px 150px, 200px 200px;
+  background-position: 0 0, 50px 50px;
+  opacity: 0.25;
+}
+
+.synapse-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: 100px 100px;
+  opacity: 0.12;
+}
+
+/* Portal Effect (Success) */
+.portal-effect {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.portal-effect.success {
+  background: radial-gradient(circle, transparent 40%, var(--success-bg) 50%, transparent 60%);
+  animation: rotate-portal-success 25s linear infinite;
+}
+
+@keyframes rotate-portal-success {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* === CHARACTER NEURON (Answered State) === */
+.character-neuron.answered {
+  width: 160px;
+  height: 160px;
+  border-radius: var(--radius-full);
+  background: radial-gradient(circle, rgba(64, 255, 128, 0.15) 0%, rgba(30, 150, 80, 0.3) 100%);
+  border: 3px solid var(--success-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 40px var(--success-glow);
+  animation: success-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes success-pulse {
+  0%, 100% {
+    box-shadow: 0 0 40px var(--success-glow);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 55px var(--success-glow);
+    transform: scale(1.02);
+  }
+}
+
+.character-display {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-primary);
+  letter-spacing: 1px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.pinyin-answer {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--success-primary);
+  text-shadow: 0 0 15px var(--success-glow);
+  margin-top: 4px;
+}
+
+.order-number {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: rgba(64, 255, 128, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 4px;
+}
+
+/* === ANSWER SYNAPSE === */
+.answer-synapse.revealed {
+  width: 100%;
+  max-width: 600px;
+  padding: var(--spacing-lg) var(--spacing-xl);
+  background: radial-gradient(ellipse at center, var(--success-bg) 0%, transparent 70%);
+  border: 2px solid var(--success-primary);
+  border-radius: var(--radius-md);
+  z-index: 2;
+  box-shadow: 0 0 30px var(--success-glow);
+  animation: reveal-glow 0.8s ease-out;
+  box-sizing: border-box;
+}
+
+@keyframes reveal-glow {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.answer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--success-primary);
+  flex-wrap: wrap;
+}
+
+.check-icon {
+  font-size: 1.5rem;
+  text-shadow: 0 0 10px var(--success-glow);
+}
+
+.answer-label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.answer-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 0 0 15px var(--success-glow);
+}
+
+/* === USAGE SYNAPSE === */
+.usage-synapse {
+  width: 100%;
+  max-width: 650px;
+  padding: var(--spacing-lg) var(--spacing-xl);
+  background: rgba(25, 35, 70, 0.6);
+  border: 1px solid var(--synapse-line);
+  border-radius: var(--radius-md);
+  z-index: 2;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+.usage-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--success-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.usage-content {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  white-space: pre-line;
+}
+
+/* === PART OF SPEECH BADGE === */
+.pos-badge {
+  position: absolute;
+  bottom: var(--spacing-lg);
+  right: var(--spacing-lg);
+  padding: 6px 15px;
+  background: rgba(64, 255, 128, 0.15);
+  border: 1px solid var(--success-primary);
+  border-radius: 15px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--success-primary);
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+/* === MOBILE RESPONSIVE (iPhone 15 Pro) === */
+@media (max-width: 600px) {
+  .neural-frame {
+    width: 100%;
+    padding: var(--spacing-md);
+    gap: var(--spacing-md);
+  }
+
+  .character-neuron.answered {
+    width: 140px;
+    height: 140px;
+  }
+
+  .character-display {
+    font-size: 2.5rem;
+  }
+
+  .pinyin-answer {
+    font-size: 1.1rem;
+  }
+
+  .answer-synapse.revealed,
+  .usage-synapse {
+    padding: var(--spacing-md) var(--spacing-lg);
+  }
+
+  .answer-content {
+    font-size: 1rem;
+  }
+
+  .answer-value {
+    font-size: 1.3rem;
+  }
+
+  .usage-content {
+    font-size: 0.85rem;
+  }
+
+  .pos-badge {
+    bottom: var(--spacing-md);
+    right: var(--spacing-md);
+    font-size: 0.65rem;
+    padding: 4px 12px;
+  }
+}
+
+/* === ACCESSIBILITY === */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>

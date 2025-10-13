@@ -1,0 +1,409 @@
+<!-- Mandarin Character to Pinyin - Neural Network Front Card -->
+<div class="card neural-card">
+  <div class="neural-frame">
+    <!-- Neural background animation -->
+    <div class="neural-background">
+      <div class="neuron-layer"></div>
+      <div class="synapse-layer"></div>
+    </div>
+
+    <!-- Rotating portal effect -->
+    <div class="portal-effect"></div>
+
+    <!-- Character Neuron (Central Display) -->
+    <div class="character-neuron">
+      <h1 class="character-display">{{Item}}</h1>
+      <div class="order-number">Character #{{Order Number}}</div>
+    </div>
+
+    <!-- Definition Synapse -->
+    <div class="definition-synapse">
+      <div class="synapse-ring"></div>
+      <div class="definition-text">
+        <p>{{Definition}}</p>
+      </div>
+    </div>
+
+    <!-- Multiple Choice Neurons -->
+    <div class="choice-neurons">
+      <div class="choice-label">SELECT PINYIN:</div>
+      <div class="choice-option neuron-node">
+        <span class="choice-letter">A)</span>
+        <span class="choice-value">{{Choice_Tone1}}</span>
+      </div>
+      <div class="choice-option neuron-node">
+        <span class="choice-letter">B)</span>
+        <span class="choice-value">{{Choice_Tone2}}</span>
+      </div>
+      <div class="choice-option neuron-node">
+        <span class="choice-letter">C)</span>
+        <span class="choice-value">{{Choice_Tone3}}</span>
+      </div>
+      <div class="choice-option neuron-node">
+        <span class="choice-letter">D)</span>
+        <span class="choice-value">{{Choice_Tone4}}</span>
+      </div>
+      <div class="choice-option neuron-node">
+        <span class="choice-letter">E)</span>
+        <span class="choice-value">{{Choice_Neutral}}</span>
+      </div>
+    </div>
+
+    <!-- Part of Speech Badge -->
+    <div class="pos-badge">{{Part_of_Speech}}</div>
+  </div>
+</div>
+
+<style>
+/* === ROOT VARIABLES === */
+:root {
+  --neural-deep: #0a0e27;
+  --neural-mid: #1a1f3a;
+  --neuron-cyan: #00f2fe;
+  --neuron-blue: #4facfe;
+  --synapse-glow: rgba(79, 172, 254, 0.6);
+  --synapse-line: rgba(100, 200, 255, 0.3);
+  --text-primary: #ffffff;
+  --text-secondary: #e0e6ff;
+  --text-tertiary: #c0d0ff;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 50%;
+}
+
+/* === CARD CONTAINER === */
+.neural-card {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
+           env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
+  background: radial-gradient(ellipse at center, var(--neural-mid) 0%, var(--neural-deep) 100%);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* === NEURAL FRAME === */
+.neural-frame {
+  width: 95%;
+  max-width: 900px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+/* === NEURAL BACKGROUND === */
+.neural-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Neuron Layer - Animated Particles */
+.neuron-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(circle, var(--neuron-cyan) 2px, transparent 2px),
+    radial-gradient(circle, var(--neuron-blue) 1px, transparent 1px);
+  background-size: 150px 150px, 200px 200px;
+  background-position: 0 0, 50px 50px;
+  opacity: 0.25;
+  animation: neuron-drift 30s linear infinite;
+}
+
+@keyframes neuron-drift {
+  from { transform: translate(0, 0); }
+  to { transform: translate(50px, 50px); }
+}
+
+/* Synapse Layer - Connecting Lines */
+.synapse-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(90deg, transparent 48%, var(--synapse-line) 50%, transparent 52%),
+    linear-gradient(0deg, transparent 48%, var(--synapse-line) 50%, transparent 52%);
+  background-size: 100px 100px;
+  opacity: 0.12;
+  animation: synapse-pulse 3s ease-in-out infinite;
+}
+
+@keyframes synapse-pulse {
+  0%, 100% { opacity: 0.12; }
+  50% { opacity: 0.2; }
+}
+
+/* Rotating Portal Effect */
+.portal-effect {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, transparent 40%, rgba(79, 172, 254, 0.02) 50%, transparent 60%);
+  animation: rotate-portal 30s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes rotate-portal {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* === CHARACTER NEURON (Central Display) === */
+.character-neuron {
+  width: 160px;
+  height: 160px;
+  border-radius: var(--radius-full);
+  background: radial-gradient(circle, rgba(79, 172, 254, 0.15) 0%, rgba(30, 80, 150, 0.3) 100%);
+  border: 3px solid var(--neuron-cyan);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 30px var(--synapse-glow);
+  animation: neuron-pulse 2s ease-in-out infinite;
+}
+
+@keyframes neuron-pulse {
+  0%, 100% {
+    box-shadow: 0 0 30px var(--synapse-glow);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 45px var(--synapse-glow);
+    transform: scale(1.02);
+  }
+}
+
+.character-display {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(45deg, var(--neuron-cyan), var(--neuron-blue), var(--neuron-cyan));
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 3s ease-in-out infinite;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.order-number {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: rgba(79, 172, 254, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 4px;
+}
+
+/* === DEFINITION SYNAPSE === */
+.definition-synapse {
+  width: 100%;
+  max-width: 700px;
+  position: relative;
+  padding: var(--spacing-lg) var(--spacing-xl);
+  background: radial-gradient(ellipse at center, rgba(79, 172, 254, 0.06) 0%, transparent 70%);
+  border-radius: var(--radius-lg);
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.synapse-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--synapse-line);
+  border-radius: var(--radius-lg);
+  animation: synapse-ring-pulse 2s ease-in-out infinite;
+  box-sizing: border-box;
+}
+
+@keyframes synapse-ring-pulse {
+  0%, 100% {
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translate(-50%, -50%) scale(1.01);
+  }
+}
+
+.definition-text {
+  position: relative;
+  z-index: 2;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  text-align: center;
+  font-weight: 400;
+}
+
+.definition-text p {
+  margin: 0;
+}
+
+/* === MULTIPLE CHOICE NEURONS === */
+.choice-neurons {
+  width: 100%;
+  max-width: 650px;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.choice-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--neuron-cyan);
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.9;
+}
+
+.choice-option.neuron-node {
+  height: 50px;
+  background: rgba(30, 50, 90, 0.5);
+  border: 2px solid var(--synapse-line);
+  border-radius: var(--radius-md);
+  margin: var(--spacing-sm) 0;
+  padding: 0 var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+.choice-letter {
+  font-weight: 700;
+  color: var(--neuron-cyan);
+  min-width: 28px;
+}
+
+.choice-value {
+  flex: 1;
+}
+
+.choice-option.neuron-node:active {
+  background: rgba(79, 172, 254, 0.25);
+  border: 2px solid var(--neuron-cyan);
+  box-shadow: 0 0 20px var(--synapse-glow);
+  transform: scale(0.98);
+  color: var(--text-primary);
+}
+
+/* === PART OF SPEECH BADGE === */
+.pos-badge {
+  position: absolute;
+  bottom: var(--spacing-lg);
+  right: var(--spacing-lg);
+  padding: 6px 15px;
+  background: rgba(79, 172, 254, 0.15);
+  border: 1px solid var(--neuron-blue);
+  border-radius: 15px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--neuron-cyan);
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+/* === MOBILE RESPONSIVE (iPhone 15 Pro) === */
+@media (max-width: 600px) {
+  .neural-frame {
+    width: 100%;
+    padding: var(--spacing-md);
+    gap: var(--spacing-md);
+  }
+
+  .character-neuron {
+    width: 140px;
+    height: 140px;
+  }
+
+  .character-display {
+    font-size: 3.5rem;
+  }
+
+  .definition-synapse,
+  .choice-neurons {
+    padding: var(--spacing-md) var(--spacing-lg);
+  }
+
+  .definition-text {
+    font-size: 0.85rem;
+  }
+
+  .choice-option.neuron-node {
+    height: 48px;
+    font-size: 1rem;
+    padding: 0 var(--spacing-md);
+  }
+
+  .pos-badge {
+    bottom: var(--spacing-md);
+    right: var(--spacing-md);
+    font-size: 0.65rem;
+    padding: 4px 12px;
+  }
+}
+
+/* === ACCESSIBILITY === */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>

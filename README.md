@@ -35,6 +35,18 @@ Traditional language learning follows a predictable path: vocabulary → grammar
      - 56,023 minimal pairs (tone contrast pairs)
      - 519 consolidated tongue twisters for voice recording
      - 12 retroflex-palatal-dental phonetic progressions
+   - **Word Frequency Analysis:**
+     - 3,986 unique words extracted from 21,070 n-grams
+     - Top 996 words (25%) = 93% frequency coverage (Pareto validated)
+     - Single-char: 792 words (20%) → 70% frequency
+     - Multi-char: 3,194 words (80%) → 30% frequency
+     - Learning progression: Characters → Words → Phrases
+   - **Anki Templates - Neural Network Theme:**
+     - Character → Pinyin templates (Front/Back with neural animations)
+     - Pinyin → Character templates (Front/Back with success states)
+     - Mobile optimized (safe areas, 48-50px touch targets)
+     - Inline CSS, self-contained, direct CSV import ready
+     - Location: `.claude/anki-templates/`
    - Total frequency captured: 333,233 occurrences
 
 2. **Korean** (Testing Ground)
@@ -62,6 +74,8 @@ Traditional language learning follows a predictable path: vocabulary → grammar
 - ✅ OpenRouter API integration: English definitions for all 1,927 Mandarin characters
 - ✅ Minimal pairs & tongue twisters: 56K pairs → 519 consolidated entries
 - ✅ Parallel processing implementation (4.6x speed improvement)
+- ✅ Word frequency analysis: 3,986 unique words from 21K n-grams
+- ✅ Anki templates: Neural network theme for mobile devices
 - 📋 Voice actor recording session (planned: 519 tongue twisters)
 - 📋 GitHub automation agent (planned)
 
@@ -74,6 +88,8 @@ Traditional language learning follows a predictable path: vocabulary → grammar
 - [x] **Weekly Review System**: ✅ Established - Reviews completed (Sep 28 - Oct 5, Oct 6-12)
 - [x] **Mandarin Character Definitions**: ✅ Complete - 1,927 characters with English definitions via OpenRouter API
 - [x] **Minimal Pairs & Tongue Twisters**: ✅ Complete - 56K pairs consolidated to 519 entries
+- [x] **Word Frequency Analysis**: ✅ Complete - 3,986 unique words extracted from n-grams
+- [x] **Anki Templates**: ✅ Complete - Neural network theme templates for both flashcard types
 - [ ] **Anki Deck Setup**: Import character flashcards with 90%+ recall threshold
 - [ ] **Voice Actor Recording**: Record 519 tongue twisters (slow/normal/fast speeds)
 - [ ] **파친코 Immersion**: Begin audiobook repetition experiment (reading + listening)

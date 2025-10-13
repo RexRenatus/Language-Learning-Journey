@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<style>
+:root {
+  /* Neural Network Color Palette - Success State */
+  --neural-deep: #0a0e27;
+  --neural-void: #050816;
+  --success-primary: #40ff80;
+  --success-cyan: #00ffa3;
+  --success-glow: rgba(64, 255, 128, 0.4);
+  --success-trail: rgba(0, 255, 163, 0.3);
+  --success-ring: rgba(64, 255, 128, 0.8);
+  --text-bright: #e8f4f8;
+  --text-muted: #a0b8c8;
+  --success-bg: rgba(15, 35, 25, 0.7);
+  --success-border: rgba(64, 255, 128, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+  background: var(--neural-deep);
+  color: var(--text-bright);
+  padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 16px) env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 16px);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Neural Network Background - Success State */
+.neural-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.neuron-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(2px 2px at 20% 30%, var(--success-primary), transparent),
+    radial-gradient(2px 2px at 60% 70%, var(--success-cyan), transparent),
+    radial-gradient(1px 1px at 50% 50%, var(--success-trail), transparent),
+    radial-gradient(2px 2px at 80% 10%, var(--success-primary), transparent),
+    radial-gradient(1px 1px at 90% 60%, var(--success-cyan), transparent),
+    radial-gradient(2px 2px at 15% 90%, var(--success-trail), transparent),
+    radial-gradient(1px 1px at 40% 20%, var(--success-primary), transparent);
+  background-size: 200% 200%;
+  background-position: 50% 50%;
+  animation: neuron-activate 2s ease-out forwards;
+  opacity: 0.5;
+}
+
+.synapse-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(125deg, transparent 48%, var(--success-glow) 49%, var(--success-glow) 51%, transparent 52%),
+    linear-gradient(45deg, transparent 48%, var(--success-trail) 49%, var(--success-trail) 51%, transparent 52%),
+    linear-gradient(155deg, transparent 48%, var(--success-glow) 49%, var(--success-glow) 51%, transparent 52%);
+  background-size: 80px 80px, 120px 120px, 100px 100px;
+  background-position: 0 0, 40px 40px, 20px 20px;
+  opacity: 0.2;
+  animation: synapse-pulse 1.5s ease-out forwards;
+}
+
+.portal-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid var(--success-ring);
+  opacity: 0.3;
+  animation: portal-success 2s ease-out forwards;
+}
+
+@keyframes neuron-activate {
+  0% {
+    background-position: 0% 0%;
+    opacity: 0.3;
+  }
+  100% {
+    background-position: 100% 100%;
+    opacity: 0.5;
+  }
+}
+
+@keyframes synapse-pulse {
+  0% { opacity: 0.1; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0.2; }
+}
+
+@keyframes portal-success {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1);
+    opacity: 0.3;
+  }
+}
+
+/* Card Container */
+.card-container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Header Section */
+.card-header {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.order-number {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}
+
+/* Answer Display */
+.answer-neuron {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(64, 255, 128, 0.3), rgba(0, 255, 163, 0.1));
+  border: 3px solid var(--success-primary);
+  box-shadow:
+    0 0 40px var(--success-glow),
+    inset 0 0 40px rgba(64, 255, 128, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: success-pulse 2s ease-in-out infinite;
+  gap: 8px;
+}
+
+.answer-pinyin {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--success-cyan);
+  text-shadow: 0 0 15px var(--success-glow);
+  line-height: 1;
+}
+
+.answer-arrow {
+  font-size: 1.5rem;
+  color: var(--success-primary);
+  line-height: 1;
+}
+
+.answer-character {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--text-bright);
+  text-shadow: 0 0 25px var(--success-glow);
+  line-height: 1;
+}
+
+@keyframes success-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 40px var(--success-glow),
+      inset 0 0 40px rgba(64, 255, 128, 0.2);
+  }
+  50% {
+    box-shadow:
+      0 0 60px var(--success-glow),
+      inset 0 0 60px rgba(64, 255, 128, 0.3);
+  }
+}
+
+/* Correct Choice Indicator */
+.correct-indicator {
+  background: linear-gradient(135deg, rgba(15, 35, 25, 0.9), rgba(10, 30, 20, 0.95));
+  border: 2px solid var(--success-primary);
+  border-radius: 16px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 30px rgba(64, 255, 128, 0.3);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.checkmark {
+  font-size: 1.5rem;
+  color: var(--success-primary);
+}
+
+.correct-text {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-bright);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.correct-choice {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--success-primary);
+  color: var(--neural-deep);
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+/* Usage Section */
+.usage-card {
+  background: linear-gradient(135deg, rgba(15, 25, 50, 0.8), rgba(10, 20, 45, 0.9));
+  border: 1px solid var(--success-border);
+  border-radius: 16px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.usage-label {
+  font-size: 0.7rem;
+  color: var(--success-cyan);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+.usage-content {
+  font-size: 0.9rem;
+  color: var(--text-bright);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Part of Speech Badge - Success State */
+.pos-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  background: rgba(64, 255, 128, 0.2);
+  border: 1px solid var(--success-primary);
+  border-radius: 12px;
+  font-size: 0.75rem;
+  color: var(--success-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 12px;
+}
+
+/* Responsive Design - iPhone 15 Pro */
+@media (max-width: 600px) {
+  body {
+    font-size: 15px;
+    padding: env(safe-area-inset-top, 16px) env(safe-area-inset-right, 12px) env(safe-area-inset-bottom, 16px) env(safe-area-inset-left, 12px);
+  }
+
+  .answer-neuron {
+    width: 160px;
+    height: 160px;
+  }
+
+  .answer-pinyin {
+    font-size: 1.1rem;
+  }
+
+  .answer-character {
+    font-size: 3rem;
+  }
+
+  .correct-indicator {
+    padding: 14px 16px;
+    gap: 10px;
+  }
+
+  .correct-text {
+    font-size: 0.9rem;
+  }
+
+  .usage-card {
+    padding: 14px 16px;
+  }
+
+  .usage-content {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .answer-neuron {
+    width: 140px;
+    height: 140px;
+  }
+
+  .answer-pinyin {
+    font-size: 1rem;
+  }
+
+  .answer-character {
+    font-size: 2.5rem;
+  }
+
+  .checkmark {
+    font-size: 1.3rem;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Neural Network Background - Success State -->
+<div class="neural-background">
+  <div class="neuron-layer"></div>
+  <div class="synapse-layer"></div>
+  <div class="portal-ring"></div>
+</div>
+
+<!-- Card Content -->
+<div class="card-container">
+
+  <!-- Header -->
+  <div class="card-header">
+    <div class="order-number">Character #{{Order Number}}</div>
+  </div>
+
+  <!-- Answer Display Neuron -->
+  <div class="answer-neuron">
+    <div class="answer-pinyin">{{Pinyin}}</div>
+    <div class="answer-arrow">↓</div>
+    <div class="answer-character">{{Correct_Character}}</div>
+  </div>
+
+  <!-- Correct Choice Indicator -->
+  <div class="correct-indicator">
+    <span class="checkmark">✓</span>
+    <span class="correct-text">CORRECT:</span>
+    <span class="correct-choice">{{Correct_Choice}}</span>
+  </div>
+
+  <!-- Usage Section -->
+  <div class="usage-card">
+    <div class="usage-label">Usage Examples:</div>
+    <div class="usage-content">{{Usage}}</div>
+    <div class="pos-badge">{{Part_of_Speech}}</div>
+  </div>
+
+</div>
+
+</body>
+</html>
