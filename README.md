@@ -49,6 +49,24 @@ Traditional language learning follows a predictable path: vocabulary → grammar
      - Location: `.claude/anki-templates/`
    - Total frequency captured: 333,233 occurrences
 
+## 🎨 Anki Template Preview
+
+Neural network themed flashcards with animated neurons, synaptic connections, and portal effects optimized for mobile study:
+
+### Pinyin → Character Flashcards
+
+**Front Card**: Shows pinyin in central neuron with definition and 5 character choices (A-E)
+
+![Pinyin to Character Front](.claude/anki-templates/pinyin-to-character-neural_Front_Image.png)
+
+**Back Card**: Shows pinyin → character transformation with success state, correct choice indicator, and usage examples
+
+![Pinyin to Character Back](.claude/anki-templates/pinyin-to-character-neural_Back_Image.png)
+
+*Character → Pinyin templates follow the same immersive neural network theme with animated neurons and success states*
+
+---
+
 2. **Korean** (Testing Ground)
    - 1,070,403 n-grams processed (subtitle corpus)
    - Seoul accent IPA transliteration complete (formal + casual)
