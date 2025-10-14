@@ -1,0 +1,388 @@
+<!-- Mandarin Definition to Character + Pinyin - Neural Network Front Card -->
+<div class="neural-frame">
+  <!-- Neural background animation -->
+  <div class="neural-background">
+    <div class="neuron-layer"></div>
+    <div class="synapse-layer"></div>
+  </div>
+
+  <!-- Rotating portal effect -->
+  <div class="portal-effect"></div>
+
+  <!-- Definition Card (Central Display) -->
+  <div class="definition-card">
+    <div class="card-label">📖 DEFINITION</div>
+    <div class="definition-text">{{Definition}}</div>
+    <div class="pos-badge">{{Part_of_Speech}}</div>
+  </div>
+
+  <!-- Multiple Choice - Characters with Pinyin -->
+  <div class="choice-neurons">
+    <div class="choice-label">SELECT CHARACTER:</div>
+
+    <div class="choice-option neuron-node">
+      <span class="choice-letter">A)</span>
+      <span class="choice-char">{{Choice_A_Char}}</span>
+      <span class="choice-pinyin">({{Choice_A_Pinyin}})</span>
+    </div>
+
+    <div class="choice-option neuron-node">
+      <span class="choice-letter">B)</span>
+      <span class="choice-char">{{Choice_B_Char}}</span>
+      <span class="choice-pinyin">({{Choice_B_Pinyin}})</span>
+    </div>
+
+    <div class="choice-option neuron-node">
+      <span class="choice-letter">C)</span>
+      <span class="choice-char">{{Choice_C_Char}}</span>
+      <span class="choice-pinyin">({{Choice_C_Pinyin}})</span>
+    </div>
+
+    <div class="choice-option neuron-node">
+      <span class="choice-letter">D)</span>
+      <span class="choice-char">{{Choice_D_Char}}</span>
+      <span class="choice-pinyin">({{Choice_D_Pinyin}})</span>
+    </div>
+
+    <div class="choice-option neuron-node">
+      <span class="choice-letter">E)</span>
+      <span class="choice-char">{{Choice_E_Char}}</span>
+      <span class="choice-pinyin">({{Choice_E_Pinyin}})</span>
+    </div>
+  </div>
+
+  <!-- Order Number Badge -->
+  <div class="order-badge">Character #{{Order Number}}</div>
+</div>
+
+<style>
+/* === ANKI MOBILE FIX === */
+.card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--neural-deep);
+}
+
+/* === ROOT VARIABLES === */
+:root {
+  --neural-deep: #0a0e27;
+  --neural-mid: #1a1f3a;
+  --neuron-cyan: #00f2fe;
+  --neuron-blue: #4facfe;
+  --synapse-glow: rgba(79, 172, 254, 0.6);
+  --synapse-line: rgba(100, 200, 255, 0.3);
+  --text-primary: #ffffff;
+  --text-secondary: #e0e6ff;
+  --text-tertiary: #c0d0ff;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 50%;
+}
+
+/* === NEURAL FRAME === */
+.neural-frame {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
+           env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
+  background: radial-gradient(ellipse at center, var(--neural-mid) 0%, var(--neural-deep) 100%);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+/* === NEURAL BACKGROUND === */
+.neural-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Neuron Layer - Animated Particles */
+.neuron-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(circle, var(--neuron-cyan) 2px, transparent 2px),
+    radial-gradient(circle, var(--neuron-blue) 1px, transparent 1px);
+  background-size: 150px 150px, 200px 200px;
+  background-position: 0 0, 50px 50px;
+  opacity: 0.25;
+  animation: neuron-drift 30s linear infinite;
+}
+
+@keyframes neuron-drift {
+  from { transform: translate(0, 0); }
+  to { transform: translate(50px, 50px); }
+}
+
+/* Synapse Layer - Connecting Lines */
+.synapse-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(90deg, transparent 48%, var(--synapse-line) 50%, transparent 52%),
+    linear-gradient(0deg, transparent 48%, var(--synapse-line) 50%, transparent 52%);
+  background-size: 100px 100px;
+  opacity: 0.12;
+  animation: synapse-pulse 3s ease-in-out infinite;
+}
+
+@keyframes synapse-pulse {
+  0%, 100% { opacity: 0.12; }
+  50% { opacity: 0.2; }
+}
+
+/* Rotating Portal Effect */
+.portal-effect {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, transparent 40%, rgba(79, 172, 254, 0.02) 50%, transparent 60%);
+  animation: rotate-portal 30s linear infinite;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes rotate-portal {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* === DEFINITION CARD === */
+.definition-card {
+  width: 100%;
+  max-width: 650px;
+  min-height: 180px;
+  background: radial-gradient(ellipse at center, rgba(79, 172, 254, 0.08) 0%, rgba(30, 50, 90, 0.4) 100%);
+  border: 2px solid var(--synapse-line);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  animation: card-pulse 2s ease-in-out infinite;
+  box-sizing: border-box;
+}
+
+@keyframes card-pulse {
+  0%, 100% {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    border-color: var(--synapse-line);
+  }
+  50% {
+    box-shadow: 0 6px 30px rgba(79, 172, 254, 0.3);
+    border-color: var(--neuron-cyan);
+  }
+}
+
+.card-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--neuron-cyan);
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.9;
+}
+
+.definition-text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  text-align: center;
+  font-weight: 400;
+  margin: var(--spacing-md) 0;
+}
+
+/* === PART OF SPEECH BADGE === */
+.pos-badge {
+  display: inline-block;
+  padding: 6px 15px;
+  background: rgba(79, 172, 254, 0.15);
+  border: 1px solid var(--neuron-blue);
+  border-radius: 15px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--neuron-cyan);
+  margin-top: var(--spacing-md);
+  box-sizing: border-box;
+}
+
+/* === MULTIPLE CHOICE NEURONS === */
+.choice-neurons {
+  width: 100%;
+  max-width: 650px;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.choice-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--neuron-cyan);
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+  opacity: 0.9;
+}
+
+.choice-option.neuron-node {
+  min-height: 50px;
+  background: rgba(30, 50, 90, 0.5);
+  border: 2px solid var(--synapse-line);
+  border-radius: var(--radius-md);
+  margin: var(--spacing-sm) 0;
+  padding: var(--spacing-md) var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+.choice-letter {
+  font-weight: 700;
+  color: var(--neuron-cyan);
+  min-width: 28px;
+  font-size: 0.9rem;
+}
+
+.choice-char {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  min-width: 40px;
+}
+
+.choice-pinyin {
+  font-size: 0.9rem;
+  color: var(--text-tertiary);
+  font-weight: 400;
+}
+
+.choice-option.neuron-node:active {
+  background: rgba(79, 172, 254, 0.25);
+  border: 2px solid var(--neuron-cyan);
+  box-shadow: 0 0 20px var(--synapse-glow);
+  transform: scale(0.98);
+  color: var(--text-primary);
+}
+
+/* === ORDER NUMBER BADGE === */
+.order-badge {
+  position: absolute;
+  bottom: var(--spacing-lg);
+  left: var(--spacing-lg);
+  padding: 6px 15px;
+  background: rgba(79, 172, 254, 0.1);
+  border: 1px solid var(--neuron-blue);
+  border-radius: 15px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(79, 172, 254, 0.7);
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+/* === MOBILE RESPONSIVE === */
+@media (max-width: 600px) {
+  .neural-frame {
+    padding: env(safe-area-inset-top, 16px) env(safe-area-inset-right, 12px)
+             env(safe-area-inset-bottom, 16px) env(safe-area-inset-left, 12px);
+    gap: var(--spacing-md);
+  }
+
+  .definition-card {
+    min-height: 150px;
+    padding: var(--spacing-lg);
+  }
+
+  .definition-text {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .choice-option.neuron-node {
+    min-height: 48px;
+    padding: var(--spacing-sm) var(--spacing-md);
+    gap: var(--spacing-sm);
+  }
+
+  .choice-char {
+    font-size: 1.3rem;
+  }
+
+  .choice-pinyin {
+    font-size: 0.8rem;
+  }
+
+  .order-badge {
+    bottom: var(--spacing-md);
+    left: var(--spacing-md);
+    font-size: 0.6rem;
+    padding: 4px 12px;
+  }
+}
+
+/* === ACCESSIBILITY === */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>

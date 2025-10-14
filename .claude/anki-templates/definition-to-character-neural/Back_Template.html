@@ -1,0 +1,394 @@
+<!-- Mandarin Definition to Character + Pinyin - Neural Network Back Card -->
+<div class="neural-frame neural-success">
+  <!-- Neural background (success state) -->
+  <div class="neural-background success-state">
+    <div class="neuron-layer active"></div>
+    <div class="synapse-layer glowing"></div>
+  </div>
+
+  <!-- Portal effect (success) -->
+  <div class="portal-effect success"></div>
+
+  <!-- Character + Pinyin Answer -->
+  <div class="answer-neuron">
+    <div class="answer-char">{{Correct_Character}}</div>
+    <div class="answer-pinyin">({{Correct_Pinyin}})</div>
+  </div>
+
+  <!-- Correct Choice Indicator -->
+  <div class="correct-indicator">
+    <span class="checkmark">✓</span>
+    <span class="correct-text">CORRECT:</span>
+    <span class="correct-choice">{{Correct_Choice}}</span>
+  </div>
+
+  <!-- Usage Examples -->
+  <div class="usage-card">
+    <div class="usage-label">USAGE:</div>
+    <div class="usage-content">{{Usage}}</div>
+    <div class="pos-badge">{{Part_of_Speech}}</div>
+  </div>
+
+  <!-- Order Number Badge -->
+  <div class="order-badge">Character #{{Order Number}}</div>
+</div>
+
+<style>
+/* === ANKI MOBILE FIX === */
+.card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: var(--neural-deep);
+}
+
+/* === ROOT VARIABLES === */
+:root {
+  --neural-deep: #0a0e27;
+  --neural-mid: #1a1f3a;
+  --neuron-cyan: #00f2fe;
+  --neuron-blue: #4facfe;
+  --synapse-glow: rgba(79, 172, 254, 0.6);
+  --synapse-line: rgba(100, 200, 255, 0.3);
+  --success-primary: #40ff80;
+  --success-glow: rgba(64, 255, 128, 0.4);
+  --success-bg: rgba(40, 200, 80, 0.12);
+  --text-primary: #ffffff;
+  --text-secondary: #e0e6ff;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 20px;
+  --spacing-xl: 30px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 50%;
+}
+
+/* === NEURAL FRAME === */
+.neural-frame {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px)
+           env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
+  background: radial-gradient(ellipse at center, var(--neural-mid) 0%, var(--neural-deep) 100%);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+/* === NEURAL BACKGROUND (Success State) === */
+.neural-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.neuron-layer.active {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    radial-gradient(circle, var(--success-primary) 2px, transparent 2px),
+    radial-gradient(circle, var(--success-primary) 1px, transparent 1px);
+  background-size: 150px 150px, 200px 200px;
+  background-position: 0 0, 50px 50px;
+  opacity: 0.3;
+  animation: neuron-activate 2s ease-out forwards;
+}
+
+@keyframes neuron-activate {
+  0% {
+    opacity: 0.2;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+
+.synapse-layer.glowing {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(90deg, transparent 48%, var(--success-glow) 50%, transparent 52%),
+    linear-gradient(0deg, transparent 48%, var(--success-glow) 50%, transparent 52%);
+  background-size: 100px 100px;
+  opacity: 0.15;
+  animation: synapse-success 1.5s ease-out forwards;
+}
+
+@keyframes synapse-success {
+  0% { opacity: 0.1; }
+  50% { opacity: 0.25; }
+  100% { opacity: 0.15; }
+}
+
+.portal-effect.success {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, transparent 40%, rgba(64, 255, 128, 0.03) 50%, transparent 60%);
+  animation: portal-success 2s ease-out forwards;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@keyframes portal-success {
+  0% {
+    transform: rotate(0deg) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(180deg) scale(1);
+    opacity: 1;
+  }
+}
+
+/* === ANSWER NEURON === */
+.answer-neuron {
+  width: 200px;
+  height: 200px;
+  border-radius: var(--radius-full);
+  background: radial-gradient(circle, rgba(64, 255, 128, 0.2) 0%, rgba(40, 180, 90, 0.3) 100%);
+  border: 3px solid var(--success-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 40px var(--success-glow);
+  animation: success-pulse 2s ease-in-out infinite;
+}
+
+@keyframes success-pulse {
+  0%, 100% {
+    box-shadow: 0 0 40px var(--success-glow);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 60px var(--success-glow);
+    transform: scale(1.02);
+  }
+}
+
+.answer-char {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-shadow: 0 0 20px var(--success-glow);
+  line-height: 1;
+}
+
+.answer-pinyin {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--success-primary);
+  text-shadow: 0 0 10px var(--success-glow);
+  line-height: 1;
+}
+
+/* === CORRECT CHOICE INDICATOR === */
+.correct-indicator {
+  background: linear-gradient(135deg, rgba(40, 200, 80, 0.3), rgba(30, 150, 60, 0.4));
+  border: 2px solid var(--success-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg) var(--spacing-xl);
+  box-shadow: 0 4px 30px rgba(64, 255, 128, 0.3);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  z-index: 2;
+}
+
+.checkmark {
+  font-size: 1.5rem;
+  color: var(--success-primary);
+}
+
+.correct-text {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.correct-choice {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  background: var(--success-primary);
+  color: var(--neural-deep);
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-left: var(--spacing-sm);
+}
+
+/* === USAGE CARD === */
+.usage-card {
+  width: 100%;
+  max-width: 650px;
+  background: linear-gradient(135deg, rgba(30, 50, 90, 0.6), rgba(20, 40, 80, 0.7));
+  border: 1px solid rgba(64, 255, 128, 0.3);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg) var(--spacing-xl);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.usage-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--success-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.usage-content {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* === PART OF SPEECH BADGE (Success State) === */
+.pos-badge {
+  display: inline-block;
+  padding: 6px 15px;
+  background: rgba(64, 255, 128, 0.2);
+  border: 1px solid var(--success-primary);
+  border-radius: 15px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--success-primary);
+  margin-top: var(--spacing-md);
+  box-sizing: border-box;
+}
+
+/* === ORDER NUMBER BADGE === */
+.order-badge {
+  position: absolute;
+  bottom: var(--spacing-lg);
+  left: var(--spacing-lg);
+  padding: 6px 15px;
+  background: rgba(64, 255, 128, 0.15);
+  border: 1px solid var(--success-primary);
+  border-radius: 15px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgba(64, 255, 128, 0.8);
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+/* === MOBILE RESPONSIVE === */
+@media (max-width: 600px) {
+  .neural-frame {
+    padding: env(safe-area-inset-top, 16px) env(safe-area-inset-right, 12px)
+             env(safe-area-inset-bottom, 16px) env(safe-area-inset-left, 12px);
+    gap: var(--spacing-md);
+  }
+
+  .answer-neuron {
+    width: 170px;
+    height: 170px;
+  }
+
+  .answer-char {
+    font-size: 3.5rem;
+  }
+
+  .answer-pinyin {
+    font-size: 1.1rem;
+  }
+
+  .correct-indicator {
+    padding: var(--spacing-md) var(--spacing-lg);
+    gap: var(--spacing-sm);
+  }
+
+  .correct-text {
+    font-size: 0.9rem;
+  }
+
+  .correct-choice {
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
+  }
+
+  .usage-card {
+    padding: var(--spacing-md) var(--spacing-lg);
+  }
+
+  .usage-content {
+    font-size: 0.85rem;
+  }
+
+  .order-badge {
+    bottom: var(--spacing-md);
+    left: var(--spacing-md);
+    font-size: 0.6rem;
+    padding: 4px 12px;
+  }
+}
+
+/* === ACCESSIBILITY === */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>

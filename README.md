@@ -269,17 +269,20 @@ Single words lack context. Full sentences are overwhelming. N-grams (2-6 word ch
   - Categories: tone series, aspiration contrasts, nasal finals, retroflex chains
   - Voice actor recording ready (slow/normal/fast speeds)
 
-- ✅ **Dual Flashcard Formats**:
+- ✅ **Triple Flashcard Formats - 50/50/50 Daily Stack**:
   - **Character → Pinyin**: 5-choice tone selection (1st-4th + neutral)
   - **Pinyin → Character**: 5-choice character recognition
+  - **Definition → Character + Pinyin**: 5-choice semantic matching (NEW)
   - Mathematical randomization prevents pattern memorization
-  - Answer distribution verified: 18-23% per position (balanced)
+  - Answer distribution verified: 19-21% per position (balanced)
+  - Each character seen 3× daily in different contexts (form, sound, meaning)
 
 - **Impact**: Complete learning infrastructure ready
   - Definitions provide semantic understanding
   - Tongue twisters enable pronunciation practice
-  - Flashcards reinforce recognition and recall
+  - Triple-format flashcards reinforce Form × Sound × Meaning
   - Frequency prioritization ensures high-value study time
+  - 50/50/50 stack = 150 cards/day → 6-week completion timeline
 
 ### **Previous Findings**
 - ❌ **3000 characters/day memorization** (Mandarin attempt): Led to character confusion
@@ -338,6 +341,8 @@ Language learning is the vehicle. The destination is **learning how to learn**�
 - [Korean N-grams with IPA](languages/korean/ngrams/chunks_with_ipa/) - 1.07M+ entries, dual transliterations
 - [Mandarin Character Definitions](languages/mandarin/ngrams/characters/consolidated_characters_with_definitions.csv) - 1,927 characters with English definitions
 - [Mandarin Tongue Twisters](languages/mandarin/ngrams/characters/consolidated_tongue_twisters.csv) - 519 pronunciation drills
+- [Mandarin Flashcards](languages/mandarin/ngrams/flashcards/) - 5,781 flashcards across 3 formats (character↔pinyin, definition→character)
+- [Anki Templates](.claude/anki-templates/) - Neural network themed flashcard templates with import instructions
 - [N-gram Data](languages/) - Processed frequency lists ready for study
 
 ### **External Learning Stack**
@@ -406,5 +411,5 @@ Welcome to the journey. 🚀
 
 ---
 
-*Last Updated: October 12, 2025*
-*Languages in Progress: 3 | N-grams Processed: 1,091,473+ | Characters: 1,927 | Character Definitions: 1,927 | Flashcards: 3,854 | Tongue Twisters: 519 | Minimal Pairs: 56,023 | Korean IPA: ✅ | Weekly Reviews: Active*
+*Last Updated: October 13, 2025*
+*Languages in Progress: 3 | N-grams Processed: 1,091,473+ | Characters: 1,927 | Character Definitions: 1,927 | Flashcards: 5,781 (3 formats) | Tongue Twisters: 519 | Minimal Pairs: 56,023 | Korean IPA: ✅ | Weekly Reviews: Active*
