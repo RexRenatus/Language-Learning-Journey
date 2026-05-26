@@ -1,3 +1,12 @@
+> # ⚠️ DEPRECATED
+>
+> **This repository is archived as v1.** The current active project is **[Language-Learning-V2](https://github.com/RexRenatus/Language-Learning-V2)** — multilingual vocabulary decks with MCQ recognition/recall cards, Gemini-curated example sentences, BGE-M3 semantic distractors, and UniDic-clean Japanese dictionary forms.
+>
+> Downloads and documentation have moved. The history below is preserved for context.
+>
+> ---
+
+
 # 🌍 Language Learning Journey
 
 > *"The acquirement of knowledge is not only a positive escape but one that continuously changes your perspective on the world for the better."*
